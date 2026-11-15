@@ -1,36 +1,50 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><title>Reality Office · cover artwork</title>
-<style>
-*{box-sizing:border-box}html,body{margin:0;width:1800px;height:900px;overflow:hidden;background:#f8f5ee;color:#182d31}
-body{font-family:"Helvetica Neue",Arial,"Noto Sans SC","PingFang SC",sans-serif;-webkit-font-smoothing:antialiased}
-main{width:1800px;height:900px;display:grid;grid-template-columns:612px 1188px}
-.intro{position:relative;padding:53px 44px 44px 63px;background:#f8f5ee}
-.identity{height:50px;display:flex;align-items:center;gap:17px;font-size:19px;font-weight:650;letter-spacing:.13em;color:#384f50}
-.mark{height:45px;width:45px;position:relative;overflow:hidden;display:block;background:#fff;border-radius:11px;border:1px solid #d7dcd4}
-.mark img{width:67px;height:67px;max-width:none;position:absolute;left:-11px;top:-12px}
-h1{margin:57px 0 23px -7px;font-size:139px;line-height:.84;letter-spacing:-.084em;font-weight:700;color:#142b2e}
-h1 span{display:block}h1 span+span{margin-top:9px}
-.tagline{font-size:32px;line-height:1.34;font-weight:570;letter-spacing:-.035em;margin:35px 0 0;max-width:492px}
-#secondary{position:absolute;bottom:67px;left:63px;right:39px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.thumb{display:block;width:100%;aspect-ratio:1500/1005;object-fit:contain;background:#eee9df;border-radius:7px;outline:1px solid #172d2c28;outline-offset:-1px}
-.cap{display:flex;align-items:center;gap:9px;margin-top:15px;font-size:21px;font-weight:630;letter-spacing:-.025em}
-.index{display:inline-block;font-size:14px;letter-spacing:.09em;font-weight:600;color:#5b6664;margin-right:3px}
-.swatch{display:inline-block;width:14px;height:4px;border-radius:2px}.blue{background:#285ead}.green{background:#1d7652}.orange{background:#c05b37}
-.feature{position:relative;background:#233b3d;color:#fffcf2;padding:42px 43px 37px;display:flex;flex-direction:column;justify-content:center}
-.primary-photo{display:block;width:1102px;height:738px;object-fit:contain;border:1px solid #f6f2e425;border-radius:13px;background:#253e40}
-.legend{display:flex;justify-content:space-between;align-items:center;margin:25px 3px 0 3px;gap:22px}
-.legend .cap{margin:0;font-size:26px;color:#fffdf4}.legend .index{color:#c3ceca}.legend .orange{background:#fa8958}
-.caption{font-size:20px;font-weight:480;letter-spacing:.01em;color:#e0e7e1;text-align:right}
-html[lang=en] .tagline{font-size:33px;line-height:1.22;max-width:470px}
-</style></head>
-<body><main>
-<section class="intro"><div class="identity"><span class="mark"><img src="../../tools/icons/app-icon.svg" alt=""></span><span id="platform"></span></div>
-<h1><span>Reality</span><span>Office</span></h1><p class="tagline" id="tagline"></p>
-<div id="secondary"><div><img class="thumb" id="pages" alt=""><div class="cap"><i class="swatch blue"></i><span class="index">01</span>Pages</div></div><div><img class="thumb" id="sheets" alt=""><div class="cap"><i class="swatch green"></i><span class="index">02</span>Sheets</div></div></div></section>
-<section class="feature"><img class="primary-photo" id="slides" alt=""><div class="legend"><div class="cap"><i class="swatch orange"></i><span class="index">03</span>Slides</div><div class="caption" id="caption"></div></div></section>
-</main><script>
-const lang=new URLSearchParams(location.search).get("lang")==="en"?"en":"zh-CN";document.documentElement.lang=lang;
-const copy=lang==="en"?["PICO OS  /  6.2+","Write, budget and present<br>on your headset.","Two days by the sea  ·  In-app view"]:["PICO OS  /  6.2+","在头显里写文档、<br>算预算、做演示。","《海边两日》 · 应用内实录"];
-document.getElementById("platform").textContent=copy[0];document.getElementById("tagline").innerHTML=copy[1];document.getElementById("caption").textContent=copy[2];
-for(const key of ["pages","sheets","slides"])document.getElementById(key).src=lang+"/"+key+".webp";
-</script></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reality Office for PICO Space Pro</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 1800px; height: 900px; margin: 0; overflow: hidden; }
+    body { background: #f6f1e9; color: #172f46; font-family: "Helvetica Neue", Arial, sans-serif; }
+    main { display: grid; grid-template-columns: 590px 1210px; height: 100%; }
+    .intro { padding: 55px 45px 52px 58px; display: flex; flex-direction: column; }
+    .brand { display: flex; align-items: center; gap: 15px; font-size: 23px; font-weight: 600; }
+    .icon { width: 48px; height: 48px; overflow: hidden; border-radius: 11px; background: white; }
+    .icon img { width: 70px; max-width: none; margin: -12px 0 0 -11px; }
+    h1 { margin: 57px 0 0 -6px; font-size: 138px; line-height: .85; letter-spacing: -.08em; }
+    h1 span { display: block; }
+    h1 span + span { margin-top: 8px; }
+    .platform { margin: 30px 0 0; font-size: 45px; line-height: 1.12; letter-spacing: -.045em; }
+    .platform strong { font-weight: 650; }
+    .thumbnails { display: grid; grid-template-columns: 1fr 1fr; gap: 17px; margin-top: auto; }
+    figure { margin: 0; }
+    .thumbnails img { display: block; width: 100%; height: auto; border-radius: 7px; }
+    figcaption { display: flex; align-items: center; gap: 8px; font-size: 18px; margin-top: 13px; }
+    figcaption strong { font-weight: 650; }
+    .detail { color: #385067; }
+    .feature { background: #182f49; color: #faf6e9; padding: 45px 44px; display: flex; flex-direction: column; justify-content: center; }
+    .feature img { width: 100%; height: auto; display: block; border-radius: 12px; }
+    .feature figcaption { margin-top: 22px; font-size: 23px; justify-content: space-between; }
+    .record { font-weight: 400; color: #c6d5dd; font-size: 20px; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="intro" aria-label="Reality Office">
+      <div class="brand"><span class="icon"><img src="../../tools/icons/app-icon.svg" alt=""></span>Spatial office suite</div>
+      <h1><span>Reality</span><span>Office</span></h1>
+      <p class="platform">Built for<br><strong>PICO Space Pro</strong></p>
+      <div class="thumbnails">
+        <figure><img src="en/pages.webp" alt="The studio schedule in Pages"><figcaption><strong>Pages</strong><span class="detail">/ Run sheet</span></figcaption></figure>
+        <figure><img src="en/sheets.webp" alt="The club materials budget in Sheets"><figcaption><strong>Sheets</strong><span class="detail">/ Budget</span></figcaption></figure>
+      </div>
+    </section>
+    <figure class="feature">
+      <img src="en/slides.webp" alt="The Saturday Print Club welcome deck in Slides">
+      <figcaption><span><strong>Slides</strong> / Saturday Print Club</span><span class="record">PICO OS 6.2 emulator</span></figcaption>
+    </figure>
+  </main>
+</body>
+</html>

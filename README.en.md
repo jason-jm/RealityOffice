@@ -1,50 +1,46 @@
-# Reality Office
+# Reality Office for PICO Space Pro
 
-[简体中文](README.md) · English
+**English** · [Deutsch](docs/languages/de.md) · [Español](docs/languages/es.md) · [Français](docs/languages/fr.md) · [Bahasa Indonesia](docs/languages/id.md) · [Italiano](docs/languages/it.md) · [Nederlands](docs/languages/nl.md) · [Polski](docs/languages/pl.md) · [Português (Brasil)](docs/languages/pt-BR.md) · [Русский](docs/languages/ru.md) · [Türkçe](docs/languages/tr.md) · [Tiếng Việt](docs/languages/vi.md) · [हिन्दी](docs/languages/hi.md) · [ไทย](docs/languages/th.md) · [日本語](docs/languages/ja.md) · [한국어](docs/languages/ko.md) · [简体中文](docs/languages/zh-CN.md) · [繁體中文](docs/languages/zh-TW.md)
 
-**Write a document, work out a budget, or give a presentation on your PICO headset.** Start with a blank page or open an Office file you already have. Keep your itinerary beside your budget, make a change and save it on the headset. You can keep working offline.
+Reality Office is a free, open-source office suite built for PICO Space Pro. Keep a brief open beside a spreadsheet, check a figure and carry it straight into your presentation. The three editors work offline and save to your headset. You can start without an app account.
 
-**[Download 1.3.4 for free (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Install on your headset](docs/INSTALL.md#english) · [Download the seaside weekend examples (ZIP)](https://raw.githubusercontent.com/jason-jm/RealityOffice/main/examples/coast-weekend/coast-weekend-en.zip)
+**[Download 1.3.4 (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Installation guide](docs/INSTALL.md#english) · [Get the sample files (ZIP)](https://raw.githubusercontent.com/jason-jm/RealityOffice/main/examples/print-club/Saturday-Print-Club.zip)
 
-For arm64 headsets running **PICO OS 6.2 or later**. Available in 18 interface languages. No app account required.
+Requires **PICO OS 6.2 or later** on arm64. The app interface is available in 18 languages.
 
-[![Reality Office poster: the Slides editor showing Two days by the sea, alongside the Pages itinerary and the Sheets budget.](docs/gallery/cover-en.jpg)](docs/gallery/cover-en.jpg)
+[![Reality Office, built for PICO Space Pro. The main image shows the Saturday Print Club deck in Slides, beside the Pages schedule and Sheets budget.](docs/gallery/cover-en.jpg)](docs/gallery/cover-en.jpg)
 
-## One weekend by the sea, three files you can make your own
+## Inside Saturday Print Club
 
-Breakfast at the old harbor on Saturday. A walk to the lighthouse on Sunday. The [example pack](examples/coast-weekend/) includes the itinerary, budget and slide deck shown below. The poster and screenshots show the **signed 1.3.4 release running in the PICO OS 6.2 emulator**. Select any image for a closer look.
+The studio opens at ten. The host has a schedule to finish, a paper order to price and a welcome talk to rehearse. Open the three sample files to try the same work yourself. The images show the English 1.3.4 release running in the PICO OS 6.2 emulator.
 
-### Pages · Plan the route
+### Pages · Set the studio schedule
 
-In the weekend itinerary, each stop has a time, a place and something to bring. Swap out a stop or add a reminder under “Before we go.” Save it as a DOCX and you can pick up the same document on your computer.
+The run sheet puts each activity beside its time and location. Move the first printing demonstration to a later slot, add a note for the volunteers and save the DOCX for your next shift.
 
-[![Pages editing A weekend by the sea, with a blue itinerary table listing when to go, where to stop and what to bring.](docs/gallery/en/pages.webp)](docs/gallery/en/pages.webp)
+[![Pages with the opening schedule, a table of times, printmaking activities and locations.](docs/gallery/en/pages.webp)](docs/gallery/en/pages.webp)
 
-### Sheets · See what’s left to spend
+### Sheets · Price another pack of paper
 
-The two travelers budgeted 840 yuan and spent 721, leaving 119. Open the trip budget and change the first day’s food bill from 76 to 90. The remaining balance drops to 105.
+Four packs of paper, ink, rollers and labels come to €96. Change the paper quantity from four to five in the workbook. The total rises to €108, leaving €12 of the club’s €120 budget.
 
-[![The trip budget in Sheets, with expenses for each day and a remaining balance of 119 yuan.](docs/gallery/en/sheets.webp)](docs/gallery/en/sheets.webp)
+[![Sheets with an itemised materials budget. Four paper packs bring the total to €96 and leave €24.](docs/gallery/en/sheets.webp)](docs/gallery/en/sheets.webp)
 
-### Slides · Tell the story in three slides
+### Slides · Rehearse the welcome talk
 
-The seaside deck takes you from the harbor to the seawall and on to the lighthouse. Add your own title and speaker notes, then start the slideshow to rehearse. Choose **Present on Wall** to place it on a detected wall with spatial access, or present on a floating panel in front of you.
+The opening slide shows a detail of Hokusai’s *The Great Wave*. Two more slides guide the audience from the foam to Mount Fuji. Add a prompt to your speaker notes, then start the show. Present on a floating panel, or use **Present on Wall** with spatial access to place the slides on a detected wall.
 
-[![The Slides editor with three thumbnails and the cover of Two days by the sea, illustrated with an orange sun over teal water.](docs/gallery/en/slides.webp)](docs/gallery/en/slides.webp)
+[![Slides editing the Saturday Print Club welcome deck, with Hokusai’s breaking wave on the first slide.](docs/gallery/en/slides.webp)](docs/gallery/en/slides.webp)
 
 <details>
-<summary>First visit? Take a look at the home screen</summary>
+<summary>See the home screen</summary>
 
-Start with a blank file, choose a template or pick up a recent document. To try the examples, unzip the download on your computer, copy the three files to the headset’s Download folder and choose **Open** from the home screen.
-
-[![The English home screen offers blank documents, presentations and workbooks above a recent list containing the three seaside examples.](docs/gallery/en/home.webp)](docs/gallery/en/home.webp)
+[![The English home screen with blank file templates and the three Saturday Print Club examples in Recent.](docs/gallery/en/home.webp)](docs/gallery/en/home.webp)
 
 </details>
 
-## Bring your own files
+## Take your files with you
 
-Pages, Sheets and Slides read and write **DOCX, XLSX and PPTX**, as well as their OpenDocument counterparts **ODT, ODS and ODP**. If you rely on complex layouts or special objects, try a copy first. The [format and feature guide](docs/FEATURES.md) describes what each editor supports.
+Pages, Sheets and Slides read and write **DOCX, XLSX and PPTX**, and **ODT, ODS and ODP**. Open an existing file or pick a template on the home screen. Local files stay on the headset unless you choose to copy or share them.
 
-The editors work and save on your device. The release APK does not request Android’s Internet permission. If you choose a cloud drive in the system file picker, that service handles the files you select. [Privacy details](DATA.md#english)
-
-[Release history](https://github.com/jason-jm/RealityOffice/releases) · [Report an issue](https://github.com/jason-jm/RealityOffice/issues) · [Build from source](docs/BUILDING.md) · [MIT license](LICENSE) · [Third-party notices](THIRD_PARTY_NOTICES.md)
+[Format support](docs/FEATURES.md) · [Privacy](DATA.md#english) · [Build from source](docs/BUILDING.md) · [MIT license](LICENSE)

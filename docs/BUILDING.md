@@ -22,4 +22,4 @@ The core JVM tests use the included fixtures. Some optional interoperability tes
 
 The editors, file readers and writers, renderers and spatial UI live in [app/src/main](../app/src/main); [unit tests](../app/src/test) and [device tests](../app/src/androidTest) live alongside them. The [feature guide](FEATURES.md) documents format support and limitations.
 
-[简体中文首页](../README.md) · [English home page](../README.en.md) · [Report an issue](https://github.com/jason-jm/RealityOffice/issues)
+[English home page](../README.md) · [简体中文首页](languages/zh-CN.md) · [Report an issue](https://github.com/jason-jm/RealityOffice/issues)

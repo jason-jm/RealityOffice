@@ -1,50 +1,46 @@
-# Reality Office
+# Reality Office for PICO Space Pro
 
-简体中文 · [English](README.en.md)
+**English** · [Deutsch](docs/languages/de.md) · [Español](docs/languages/es.md) · [Français](docs/languages/fr.md) · [Bahasa Indonesia](docs/languages/id.md) · [Italiano](docs/languages/it.md) · [Nederlands](docs/languages/nl.md) · [Polski](docs/languages/pl.md) · [Português (Brasil)](docs/languages/pt-BR.md) · [Русский](docs/languages/ru.md) · [Türkçe](docs/languages/tr.md) · [Tiếng Việt](docs/languages/vi.md) · [हिन्दी](docs/languages/hi.md) · [ไทย](docs/languages/th.md) · [日本語](docs/languages/ja.md) · [한국어](docs/languages/ko.md) · [简体中文](docs/languages/zh-CN.md) · [繁體中文](docs/languages/zh-TW.md)
 
-**在 PICO 头显里写文档、算预算、做演示。** 打开一份已有的 Office 文件，或从空白页开始。你可以把行程和预算并排放在眼前，改好后保存到头显；即使没有网络，也能接着做。
+Reality Office is a free, open-source office suite built for PICO Space Pro. Keep a brief open beside a spreadsheet, check a figure and carry it straight into your presentation. The three editors work offline and save to your headset. You can start without an app account.
 
-**[免费下载 1.3.4（APK）](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [安装到头显](docs/INSTALL.md#简体中文) · [下载海边周末示例（ZIP）](https://raw.githubusercontent.com/jason-jm/RealityOffice/main/examples/coast-weekend/coast-weekend-zh-CN.zip)
+**[Download 1.3.4 (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Installation guide](docs/INSTALL.md#english) · [Get the sample files (ZIP)](https://raw.githubusercontent.com/jason-jm/RealityOffice/main/examples/print-club/Saturday-Print-Club.zip)
 
-适用于运行 **PICO OS 6.2 或更高版本**的 arm64 头显。支持 18 种界面语言，无需注册应用账号。
+Requires **PICO OS 6.2 or later** on arm64. The app interface is available in 18 languages.
 
-[![Reality Office 海报：右侧是 Slides 正在编辑的《海边两日》，左下是 Pages 的行程和 Sheets 的预算。](docs/gallery/cover-zh-CN.jpg)](docs/gallery/cover-zh-CN.jpg)
+[![Reality Office, built for PICO Space Pro. The main image shows the Saturday Print Club deck in Slides, beside the Pages schedule and Sheets budget.](docs/gallery/cover-en.jpg)](docs/gallery/cover-en.jpg)
 
-## 一个海边周末，三份打开就能改的文件
+## Inside Saturday Print Club
 
-周六在旧港吃早餐，周日沿海堤走到灯塔。下面的行程、预算和幻灯片都在同一个[示例包](examples/coast-weekend/)里。海报和界面图均截自正式版 1.3.4 在 **PICO OS 6.2 模拟器**中的实际画面；点图可查看大图。
+The studio opens at ten. The host has a schedule to finish, a paper order to price and a welcome talk to rehearse. Open the three sample files to try the same work yourself. The images show the English 1.3.4 release running in the PICO OS 6.2 emulator.
 
-### Pages · 把周末写成一张行程表
+### Pages · Set the studio schedule
 
-在《海边周末行程》里，出发时间、目的地和要带的东西排成三列。换掉一站，在「出发之前」补一句提醒，再保存成 DOCX。回到电脑上，行程还是一份可以继续编辑的文档。
+The run sheet puts each activity beside its time and location. Move the first printing demonstration to a later slot, add a note for the volunteers and save the DOCX for your next shift.
 
-[![Pages 正在编辑《周末去看海》：正文下方是一张蓝色的两日行程表。](docs/gallery/zh-CN/pages.webp)](docs/gallery/zh-CN/pages.webp)
+[![Pages with the opening schedule, a table of times, printmaking activities and locations.](docs/gallery/en/pages.webp)](docs/gallery/en/pages.webp)
 
-### Sheets · 看看旅费还剩多少
+### Sheets · Price another pack of paper
 
-两个人的预算是 840 元，交通、住宿和餐饮等一共花了 721 元，还剩 119 元。打开《两人旅行预算》，把第一天的餐费从 76 元改成 90 元，表里的剩余预算就会变成 105 元。
+Four packs of paper, ink, rollers and labels come to €96. Change the paper quantity from four to five in the workbook. The total rises to €108, leaving €12 of the club’s €120 budget.
 
-[![Sheets 的旅行预算工作表，按项目列出两天的开销，右侧显示剩余预算 119 元。](docs/gallery/zh-CN/sheets.webp)](docs/gallery/zh-CN/sheets.webp)
+[![Sheets with an itemised materials budget. Four paper packs bring the total to €96 and leave €24.](docs/gallery/en/sheets.webp)](docs/gallery/en/sheets.webp)
 
-### Slides · 把两天的故事讲给人听
+### Slides · Rehearse the welcome talk
 
-《海边两日》用三张幻灯片串起旧港、海堤和灯塔。把标题和讲者备注换成自己的，点「从头放映」就能排练。想放大看？选择「投影到墙面」后，允许空间访问即可贴合检测到的墙面；也可以在前方的浮空面板上放映。
+The opening slide shows a detail of Hokusai’s *The Great Wave*. Two more slides guide the audience from the foam to Mount Fuji. Add a prompt to your speaker notes, then start the show. Present on a floating panel, or use **Present on Wall** with spatial access to place the slides on a detected wall.
 
-[![Slides 编辑器左侧列出三张幻灯片，当前封面以橙色落日和蓝绿色海面绘出《海边两日》。](docs/gallery/zh-CN/slides.webp)](docs/gallery/zh-CN/slides.webp)
+[![Slides editing the Saturday Print Club welcome deck, with Hokusai’s breaking wave on the first slide.](docs/gallery/en/slides.webp)](docs/gallery/en/slides.webp)
 
 <details>
-<summary>第一次打开？看看 Reality Office 首页</summary>
+<summary>See the home screen</summary>
 
-首页可以新建空白文档、从模板起步，也能找到最近打开的文件。试用示例时，先在电脑上解压 ZIP，把三个文件复制到头显的「下载」文件夹，再从首页「打开」中选择文件。
-
-[![中文版首页：上方可以新建文档、演示或工作簿，下方列出最近打开的海边周末文件。](docs/gallery/zh-CN/home.webp)](docs/gallery/zh-CN/home.webp)
+[![The English home screen with blank file templates and the three Saturday Print Club examples in Recent.](docs/gallery/en/home.webp)](docs/gallery/en/home.webp)
 
 </details>
 
-## 用自己的文件
+## Take your files with you
 
-Pages、Sheets 和 Slides 分别读写 **DOCX、XLSX、PPTX**，也支持 OpenDocument 的 **ODT、ODS、ODP**。如果文件含有复杂排版或特殊对象，可以先用副本试一下；[格式与功能说明](docs/FEATURES.md)列出了支持范围。
+Pages, Sheets and Slides read and write **DOCX, XLSX and PPTX**, and **ODT, ODS and ODP**. Open an existing file or pick a template on the home screen. Local files stay on the headset unless you choose to copy or share them.
 
-编辑和保存都在设备上完成，正式版没有申请 Android 互联网权限。如果主动通过系统文件选择器使用云盘，则由所选服务处理相应文件。[隐私说明](DATA.md#简体中文)
-
-[版本记录](https://github.com/jason-jm/RealityOffice/releases) · [反馈问题](https://github.com/jason-jm/RealityOffice/issues) · [从源码构建](docs/BUILDING.md) · [MIT 开源许可证](LICENSE) · [第三方声明](THIRD_PARTY_NOTICES.md)
+[Format support](docs/FEATURES.md) · [Privacy](DATA.md#english) · [Build from source](docs/BUILDING.md) · [MIT license](LICENSE)
