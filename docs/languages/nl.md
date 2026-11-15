@@ -14,12 +14,7 @@ Vereist **PICO OS 6.2 of hoger** op arm64. De app is in 18 talen te gebruiken.
 
 Open een tweede bestand in een nieuw venster. Zo kun je tijdens het schrijven van een voorstel de oorspronkelijke opdracht raadplegen, of een getal in de spreadsheet controleren terwijl je een grafiek in de presentatie bijwerkt. Vanaf het beginscherm open je sjablonen voor rapporten, begrotingen en presentaties. Je kunt recente bestanden doorzoeken en veelgebruikte documenten vastmaken. Elke editor heeft een overzicht van sneltoetsen voor een fysiek toetsenbord.
 
-<details>
-<summary>Bekijk het beginscherm</summary>
-
 [![Bekijk het beginscherm · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

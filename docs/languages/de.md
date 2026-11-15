@@ -14,12 +14,7 @@ Voraussetzung ist **PICO OS 6.2 oder neuer** auf arm64. Die App lässt sich in 1
 
 Öffne eine zweite Datei in einem neuen Fenster. So kannst du beim Schreiben einer Antwort die ursprüngliche Anfrage lesen oder beim Überarbeiten einer Präsentation Zahlen in der Kalkulation nachschlagen. Auf der Startseite findest du Vorlagen für Berichte, Budgets und Präsentationen. Du kannst zuletzt verwendete Dateien durchsuchen und häufig benötigte Dokumente anheften. Für die Arbeit mit einer physischen Tastatur bietet jeder Editor eine Übersicht seiner Tastenkürzel.
 
-<details>
-<summary>Startseite der App ansehen</summary>
-
 [![Startseite der App ansehen · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

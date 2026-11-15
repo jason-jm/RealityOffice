@@ -14,12 +14,7 @@ Reality Office 是專為 **PICO Space Pro** 打造的免費開源辦公軟體。
 
 選擇在新視窗開啟檔案，就能同時看見兩份資料。寫提案時把需求文件放在旁邊，更新簡報圖表時則可以對照試算表。首頁提供報告、預算和簡報範本，也能搜尋最近使用的檔案，或將常用文件釘選到清單。搭配實體鍵盤時，可在各編輯器查看適用的快速鍵。
 
-<details>
-<summary>查看應用程式首頁</summary>
-
 [![查看應用程式首頁 · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

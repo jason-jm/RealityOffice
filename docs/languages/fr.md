@@ -14,12 +14,7 @@ Nécessite **PICO OS 6.2 ou une version ultérieure** sur arm64. L’interface e
 
 Ouvrez un deuxième fichier dans une nouvelle fenêtre. Consultez le cahier des charges tout en rédigeant votre réponse, ou vérifiez les chiffres dans un classeur pendant la mise à jour d’un graphique de présentation. Depuis l’accueil, vous pouvez choisir un modèle de rapport, de budget ou de présentation, rechercher un fichier récent et épingler vos documents habituels. Chaque éditeur dispose d’un guide des raccourcis pour le clavier physique.
 
-<details>
-<summary>Voir l’écran d’accueil</summary>
-
 [![Voir l’écran d’accueil · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

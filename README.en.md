@@ -14,12 +14,7 @@ Requires **PICO OS 6.2 or later** on arm64. The app interface is available in 18
 
 Choose **Open in New Window** to put two files side by side. Keep the original brief open while you draft a response, or consult a workbook while you update a chart in a presentation. From the home screen you can start with a report, budget or presentation template, search your recent files, and pin documents you open regularly. Each editor has a keyboard shortcut guide for working with a physical keyboard.
 
-<details>
-<summary>See the home screen</summary>
-
 [![The English home screen with blank file templates and the three Saturday Print Club examples in Recent.](docs/gallery/en/home.webp)](docs/gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

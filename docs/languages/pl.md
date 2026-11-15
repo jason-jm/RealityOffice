@@ -14,12 +14,7 @@ Wymagany jest system **PICO OS 6.2 lub nowszy** na urządzeniu arm64. Interfejs 
 
 Otwórz drugi plik w nowym oknie. Możesz czytać wymagania podczas pisania oferty albo sprawdzać wartości w arkuszu, gdy poprawiasz wykres w prezentacji. Na ekranie głównym znajdziesz szablony raportów, budżetów i prezentacji. Możesz przeszukiwać ostatnio używane pliki i przypinać te, do których często wracasz. Każdy edytor ma wykaz skrótów do pracy z fizyczną klawiaturą.
 
-<details>
-<summary>Zobacz ekran główny</summary>
-
 [![Zobacz ekran główny · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

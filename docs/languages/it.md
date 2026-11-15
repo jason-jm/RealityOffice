@@ -14,12 +14,7 @@ Richiede **PICO OS 6.2 o successivo** su arm64. L’interfaccia è disponibile i
 
 Apri un secondo file in una nuova finestra. Puoi consultare le specifiche mentre scrivi una proposta o controllare un importo nel foglio di calcolo mentre aggiorni un grafico nella presentazione. Nella schermata iniziale trovi modelli per relazioni, bilanci e presentazioni. Puoi cercare tra i file recenti e fissare quelli che usi spesso. Ogni editor include una guida alle scorciatoie per la tastiera fisica.
 
-<details>
-<summary>Guarda la schermata iniziale</summary>
-
 [![Guarda la schermata iniziale · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

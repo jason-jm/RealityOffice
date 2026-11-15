@@ -14,12 +14,7 @@ Requer **PICO OS 6.2 ou superior** em um dispositivo arm64. A interface está di
 
 Abra um segundo arquivo em uma nova janela. Consulte os requisitos enquanto escreve uma proposta ou confira os valores da planilha enquanto atualiza um gráfico da apresentação. Na tela inicial, escolha um modelo de relatório, orçamento ou apresentação. Você também pode procurar arquivos recentes e fixar os que usa com frequência. Cada editor tem um guia de atalhos para quem usa teclado físico.
 
-<details>
-<summary>Ver a tela inicial</summary>
-
 [![Ver a tela inicial · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

@@ -14,12 +14,7 @@ Memerlukan **PICO OS 6.2 atau lebih baru** pada perangkat arm64. Antarmuka aplik
 
 Buka berkas kedua di jendela baru. Anda bisa merujuk ke spesifikasi saat menyusun proposal atau memeriksa angka di lembar kerja sambil memperbarui grafik dalam presentasi. Di layar utama, pilih templat laporan, anggaran, atau presentasi, telusuri berkas yang baru dibuka, dan sematkan dokumen yang sering digunakan. Setiap editor menyediakan panduan pintasan untuk papan ketik fisik.
 
-<details>
-<summary>Lihat layar utama</summary>
-
 [![Lihat layar utama · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

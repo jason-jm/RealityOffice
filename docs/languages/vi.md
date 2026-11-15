@@ -14,12 +14,7 @@ Yêu cầu **PICO OS 6.2 trở lên** trên thiết bị arm64. Giao diện ứn
 
 Mở tệp thứ hai trong cửa sổ mới. Bạn có thể vừa xem bản yêu cầu vừa viết đề xuất, hoặc đối chiếu số liệu trên bảng tính khi cập nhật biểu đồ trong bài thuyết trình. Từ màn hình chính, bạn có thể chọn mẫu báo cáo, ngân sách hay bài trình bày, tìm tệp đã mở gần đây và ghim tài liệu thường dùng. Mỗi trình soạn thảo đều có hướng dẫn phím tắt cho bàn phím vật lý.
 
-<details>
-<summary>Xem màn hình chính</summary>
-
 [![Xem màn hình chính · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

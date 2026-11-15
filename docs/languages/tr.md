@@ -14,12 +14,7 @@ arm64 cihazlarda **PICO OS 6.2 veya üzeri** gerekir. Uygulama arayüzü 18 dild
 
 İkinci dosyayı yeni bir pencerede açın. Böylece teklifi yazarken şartnameyi okuyabilir ya da sunudaki grafiği güncellerken rakamları hesap tablosundan kontrol edebilirsiniz. Ana ekrandan rapor, bütçe veya sunu şablonu seçebilir, son kullanılan dosyalarda arama yapabilir ve sık açtığınız belgeleri listeye sabitleyebilirsiniz. Her düzenleyicide fiziksel klavyeyle kullanabileceğiniz kısayolları gösteren bir kılavuz bulunur.
 
-<details>
-<summary>Ana ekranı görüntüle</summary>
-
 [![Ana ekranı görüntüle · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 

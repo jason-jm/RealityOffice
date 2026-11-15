@@ -14,12 +14,7 @@ Requiere **PICO OS 6.2 o posterior** en un dispositivo arm64. La interfaz está 
 
 Abre un segundo archivo en una ventana nueva para consultar dos documentos a la vez. Ten a mano las instrucciones mientras redactas una propuesta o consulta la hoja de cálculo al ajustar un gráfico de la presentación. La pantalla de inicio ofrece plantillas para informes, presupuestos y presentaciones. También permite buscar entre los archivos recientes y fijar los que abres a menudo. Cada editor incluye una guía de atajos para el teclado físico.
 
-<details>
-<summary>Ver la pantalla de inicio</summary>
-
 [![Ver la pantalla de inicio · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
-
-</details>
 
 <a name="pages-editor"></a>
 
