@@ -1,6 +1,6 @@
 # Reality Office in your language
 
-Choose a product guide for PICO Space Pro. Each edition includes the same English interface screenshots and editable sample files.
+Choose a guide to writing in Pages, analyzing data in Sheets and presenting in Slides on PICO Space Pro. Every edition covers spatial windows, file formats and offline editing, with screenshots of the English interface.
 
 - [English](../../README.md)
 - [Deutsch](de.md)

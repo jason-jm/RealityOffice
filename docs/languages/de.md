@@ -2,35 +2,17 @@
 
 [English](../../README.md) · **Deutsch** · [Español](es.md) · [Français](fr.md) · [Bahasa Indonesia](id.md) · [Italiano](it.md) · [Nederlands](nl.md) · [Polski](pl.md) · [Português (Brasil)](pt-BR.md) · [Русский](ru.md) · [Türkçe](tr.md) · [Tiếng Việt](vi.md) · [हिन्दी](hi.md) · [ไทย](th.md) · [日本語](ja.md) · [한국어](ko.md) · [简体中文](zh-CN.md) · [繁體中文](zh-TW.md)
 
-Reality Office ist ein kostenloses, quelloffenes Office-Paket für PICO Space Pro. Öffne einen Entwurf neben deiner Kalkulation, prüfe eine Zahl und übernimm sie direkt in die Präsentation. Alle drei Editoren funktionieren offline und speichern deine Dateien auf dem Headset. Ein Konto brauchst du dafür nicht.
+Reality Office ist ein kostenloses, quelloffenes Office-Paket für **PICO Space Pro**. Mit [Pages](#pages-editor) schreibst und prüfst du Dokumente, mit [Sheets](#sheets-editor) wertest du Daten aus und mit [Slides](#slides-editor) gestaltest und hältst du Präsentationen. Alle drei Editoren arbeiten offline. Du kannst Unterlagen neben deiner offenen Arbeitsdatei im Blick behalten und dieselben Dateien später am Computer weiterbearbeiten.
 
-**[Version 1.3.4 herunterladen (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Installationsanleitung (EN)](../INSTALL.md#english) · [Beispieldateien herunterladen (ZIP)](https://raw.githubusercontent.com/jason-jm/RealityOffice/main/examples/print-club/Saturday-Print-Club.zip)
+**[Version 1.3.4 herunterladen (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Installationsanleitung (EN)](../INSTALL.md#english)
 
 Voraussetzung ist **PICO OS 6.2 oder neuer** auf arm64. Die App lässt sich in 18 Sprachen bedienen.
 
 [![Reality Office für PICO Space Pro. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
-## Ein Samstag in der Druckwerkstatt
+## Mit zwei Fenstern arbeiten
 
-Um zehn öffnet die Werkstatt. Bis dahin stehen der Ablaufplan, die Materialkosten und eine kurze Begrüßung auf dem Programm. Mit den drei Beispieldateien kannst du alles selbst ausprobieren. Die Bilder zeigen die englische Version 1.3.4 im Emulator für PICO OS 6.2.
-
-### Pages · Den Ablauf für die Werkstatt planen
-
-Im Ablaufplan stehen Zeit und Ort neben jedem Programmpunkt. Verlege die erste Druckvorführung, ergänze einen Hinweis für die Helfer und speichere den Plan als DOCX.
-
-[![Pages · Den Ablauf für die Werkstatt planen (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
-
-### Sheets · Ein weiteres Paket Papier einrechnen
-
-Vier Pakete Papier, Druckfarbe, Walzen und Etiketten kosten zusammen 96 €. Erhöhe die Papiermenge auf fünf Pakete. Die Gesamtsumme steigt auf 108 € und vom Werkstattbudget von 120 € bleiben 12 € übrig.
-
-[![Sheets · Ein weiteres Paket Papier einrechnen (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
-
-### Slides · Die Begrüßung proben
-
-Die Titelfolie zeigt einen Ausschnitt aus Hokusais *Großer Welle*. Zwei weitere Folien lenken den Blick von der Gischt zum Fuji. Ergänze deine Vortragsnotizen und starte die Präsentation. Die Folien können frei vor dir schweben oder mit Zugriff auf die Raumdaten an einer erkannten Wand erscheinen.
-
-[![Slides · Saturday Print Club · Die Begrüßung proben](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+Öffne eine zweite Datei in einem neuen Fenster. So kannst du beim Schreiben einer Antwort die ursprüngliche Anfrage lesen oder beim Überarbeiten einer Präsentation Zahlen in der Kalkulation nachschlagen. Auf der Startseite findest du Vorlagen für Berichte, Budgets und Präsentationen. Du kannst zuletzt verwendete Dateien durchsuchen und häufig benötigte Dokumente anheften. Für die Arbeit mit einer physischen Tastatur bietet jeder Editor eine Übersicht seiner Tastenkürzel.
 
 <details>
 <summary>Startseite der App ansehen</summary>
@@ -39,8 +21,56 @@ Die Titelfolie zeigt einen Ausschnitt aus Hokusais *Großer Welle*. Zwei weitere
 
 </details>
 
-## Mit eigenen Dateien arbeiten
+<a name="pages-editor"></a>
 
-Pages, Sheets und Slides lesen und schreiben **DOCX, XLSX und PPTX** sowie **ODT, ODS und ODP**. Öffne eine vorhandene Datei oder wähle auf der Startseite eine Vorlage. Lokale Dateien bleiben auf dem Headset, bis du sie kopierst oder teilst.
+## Pages · Dokumente gestalten und überarbeiten
+
+Gliedere einen Bericht mit Überschriftsformaten. Über die Gliederungsansicht springst du zum richtigen Abschnitt und aus den Überschriften entsteht ein verlinktes Inhaltsverzeichnis mit Seitenzahlen. Füge Bilder, Tabellen und Fußnoten ein oder zeige mit Kopf- und Fußzeilen auf jeder Seite den Berichtstitel oder die Seitenzahl an.
+
+Bekommst du einen überarbeiteten Entwurf zurück, zeigt der Dokumentvergleich die Unterschiede in einem separaten Dokument. Mit der Änderungsverfolgung siehst du, wer eine Stelle bearbeitet hat, und kannst jede Änderung einzeln annehmen oder ablehnen. Kommentare lassen sich an einer Textstelle verankern, beantworten und nach der Klärung als erledigt markieren.
+
+[![Pages · Den Ablauf für die Werkstatt planen (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+
+<a name="sheets-editor"></a>
+
+## Sheets · Formeln, Diagramme und Datenanalyse
+
+Erstelle Budgets oder Bestelllisten mit Formeln, die auf andere Tabellenblätter zugreifen. Mit `SUMIFS` addierst du Werte, die mehrere Bedingungen erfüllen. `XLOOKUP` übernimmt den passenden Preis aus einer Liste. Steht das Ergebnis schon fest, ermittelt die Zielwertsuche einen passenden Eingabewert, etwa den Stückpreis, bei dem eine Bestellung ins Budget passt.
+
+Fixiere beim Scrollen die Kopfzeile, sortiere nach mehreren Spalten und filtere nach bestimmten Datensätzen. Auswahllisten vereinheitlichen Eingaben. Mit bedingter Formatierung kannst du Beträge über einem Grenzwert hervorheben. Säulen-, Linien- und Kreisdiagramme zeigen Unterschiede, zeitliche Verläufe oder Anteile.
+
+[![Sheets · Ein weiteres Paket Papier einrechnen (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+
+<a name="slides-editor"></a>
+
+## Slides · Folien gestalten, proben und im Raum zeigen
+
+Wähle ein Folienlayout, richte Text und Bilder an Führungslinien aus und füge Tabellen oder Diagramme ein. Setze Folienübergänge und blende einzelne Objekte passend zum Vortrag ein. Zu jeder Folie kannst du Notizen hinterlegen und bei der Probe die Anzeigedauer aufzeichnen.
+
+Während die Präsentation in einem eigenen Fenster läuft, zeigt die Referentenansicht deine Notizen sowie die aktuelle und die nächste Folie. Mit deiner Freigabe für Raumdaten kannst du die Präsentationsfläche an einer vom Headset erkannten Wand platzieren. Ohne Freigabe oder erkannte Wand schweben die Folien vor dir.
+
+[![Slides · Saturday Print Club · Die Begrüßung proben](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+
+## Dateiformate und PDF-Export
+
+| Editor | Öffnen und speichern | Weitere Leseformate |
+| --- | --- | --- |
+| Pages | DOCX, ODT, TXT | DOC, RTF |
+| Sheets | XLSX, ODS, CSV | XLS |
+| Slides | PPTX, ODP | PPT |
+
+Alle drei Editoren können das fertige Ergebnis als PDF exportieren. Änderungen an älteren DOC-, XLS- oder PPT-Dateien speicherst du in einem neueren Format neben dem Original. CSV eignet sich für die Werte eines einzelnen Blatts. Für Formeln, Formatierungen und mehrere Blätter wählst du XLSX oder ODS.
+
+## Offline arbeiten und Entwürfe wiederherstellen
+
+Du öffnest und speicherst Dateien direkt auf dem Headset, ohne ein App-Konto zu benötigen. Die veröffentlichte APK fordert keine Android-Internetberechtigung an. Wenn du im Dateidialog des Systems einen Cloudspeicher wählst, verarbeitet dessen Anbieter die ausgewählten Dateien.
+
+Die automatische Speicherung sichert deine Änderungen. Für Unterbrechungen gibt es einen lokalen Wiederherstellungsentwurf. Ändert eine andere App die geöffnete Datei, pausiert das automatische Speichern, damit du selbst über die Version entscheidest. Erkennt Reality Office Inhalte, die es nicht bearbeiten kann, etwa Makros, bietet es zunächst an, eine Kopie zu speichern.
+
+## Die Editoren ausprobieren
+
+Die Bilder zeigen die englische Version 1.3.4 im Emulator für PICO OS 6.2. Lade die abgebildeten Dateien herunter und bearbeite einen Ablaufplan, ändere eine Kalkulation mit Formeln oder probe mit drei Folien und Referentennotizen.
+
+[Beispieldateien herunterladen (ZIP)](https://raw.githubusercontent.com/jason-jm/RealityOffice/main/examples/print-club/Saturday-Print-Club.zip)
 
 [Unterstützte Formate (EN)](../FEATURES.md) · [Datenschutz (EN)](../../DATA.md#english) · [Aus dem Quellcode bauen (EN)](../BUILDING.md) · [MIT-Lizenz](../../LICENSE)
