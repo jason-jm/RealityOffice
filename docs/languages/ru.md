@@ -8,7 +8,14 @@ Reality Office — бесплатный офисный пакет с откры�
 
 Требуется **PICO OS 6.2 или новее** на устройстве arm64. Интерфейс доступен на 18 языках.
 
-[![Reality Office для PICO Space Pro. На плакате видны главный экран, план мастер-класса в Pages, смета в Sheets и приветственная презентация в Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+<p>
+  <a href="../gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office для PICO Space Pro. На плакате видны главный экран, план мастер-класса в Pages, смета в Sheets и приветственная презентация в Slides.">
+    </picture>
+  </a>
+</p>
 
 ## Работа с несколькими окнами
 

@@ -8,7 +8,14 @@ Reality Office 是专为 **PICO Space Pro** 打造的免费开源办公套件。
 
 适用于运行 **PICO OS 6.2 或更高版本**的 arm64 设备，应用界面有 18 种语言可选。
 
-[![为 PICO Space Pro 打造的 Reality Office。海报展示应用首页、Pages 活动流程表、Sheets 材料预算和 Slides 欢迎演示。](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+<p>
+  <a href="../gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
+      <img src="../gallery/cover-en.jpg" alt="为 PICO Space Pro 打造的 Reality Office。海报展示应用首页、Pages 活动流程表、Sheets 材料预算和 Slides 欢迎演示。">
+    </picture>
+  </a>
+</p>
 
 ## 在空间里并排办公
 

@@ -8,7 +8,14 @@ Reality Office là bộ ứng dụng văn phòng miễn phí, mã nguồn mở, 
 
 Yêu cầu **PICO OS 6.2 trở lên** trên thiết bị arm64. Giao diện ứng dụng có 18 ngôn ngữ.
 
-[![Reality Office dành cho PICO Space Pro với màn hình chính, lịch sinh hoạt trong Pages, bảng dự toán trong Sheets và bài trình chiếu chào mừng trong Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+<p>
+  <a href="../gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office dành cho PICO Space Pro với màn hình chính, lịch sinh hoạt trong Pages, bảng dự toán trong Sheets và bài trình chiếu chào mừng trong Slides.">
+    </picture>
+  </a>
+</p>
 
 ## Làm việc với nhiều cửa sổ
 

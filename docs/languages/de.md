@@ -8,7 +8,14 @@ Reality Office ist ein kostenloses, quelloffenes Office-Paket für **PICO Space 
 
 Voraussetzung ist **PICO OS 6.2 oder neuer** auf arm64. Die App lässt sich in 18 Sprachen bedienen.
 
-[![Reality Office für PICO Space Pro mit Startseite, Ablaufplan in Pages, Materialbudget in Sheets und Willkommenspräsentation in Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+<p>
+  <a href="../gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office für PICO Space Pro mit Startseite, Ablaufplan in Pages, Materialbudget in Sheets und Willkommenspräsentation in Slides.">
+    </picture>
+  </a>
+</p>
 
 ## Mit zwei Fenstern arbeiten
 

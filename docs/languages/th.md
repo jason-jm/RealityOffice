@@ -8,7 +8,14 @@ Reality Office เป็นชุดโปรแกรมสำนักงา�
 
 ใช้กับอุปกรณ์ arm64 ที่มี **PICO OS 6.2 ขึ้นไป** อินเทอร์เฟซของแอปรองรับ 18 ภาษา
 
-[![Reality Office สำหรับ PICO Space Pro แสดงหน้าหลัก กำหนดการเวิร์กช็อปใน Pages งบประมาณใน Sheets และสไลด์ต้อนรับใน Slides](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+<p>
+  <a href="../gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office สำหรับ PICO Space Pro แสดงหน้าหลัก กำหนดการเวิร์กช็อปใน Pages งบประมาณใน Sheets และสไลด์ต้อนรับใน Slides">
+    </picture>
+  </a>
+</p>
 
 ## ทำงานกับหลายหน้าต่างในเฮดเซต
 

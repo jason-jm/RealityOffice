@@ -8,7 +8,14 @@ Reality Office, **PICO Space Pro** için geliştirilmiş ücretsiz ve açık kay
 
 arm64 cihazlarda **PICO OS 6.2 veya üzeri** gerekir. Uygulama arayüzü 18 dilde kullanılabilir.
 
-[![PICO Space Pro için Reality Office. Afişte ana ekran, Pages’te atölye programı, Sheets’te bütçe ve Slides’ta karşılama sunusu yer alıyor.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+<p>
+  <a href="../gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
+      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro için Reality Office. Afişte ana ekran, Pages’te atölye programı, Sheets’te bütçe ve Slides’ta karşılama sunusu yer alıyor.">
+    </picture>
+  </a>
+</p>
 
 ## Yan yana pencerelerde çalışın
 

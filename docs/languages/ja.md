@@ -8,7 +8,14 @@ Reality Office は **PICO Space Pro** 向けの無料で使えるオープンソ
 
 arm64 の **PICO OS 6.2 以降**に対応。アプリの表示言語は 18 種類から選べます。
 
-[![PICO Space Pro 向け Reality Office。ホーム画面、Pages の進行表、Sheets の予算表、Slides のウェルカムスライド。](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+<p>
+  <a href="../gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
+      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro 向け Reality Office。ホーム画面、Pages の進行表、Sheets の予算表、Slides のウェルカムスライド。">
+    </picture>
+  </a>
+</p>
 
 ## 複数のウィンドウで作業する
 

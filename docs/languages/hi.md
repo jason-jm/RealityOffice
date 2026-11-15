@@ -8,7 +8,14 @@ Reality Office एक मुफ़्त, ओपन सोर्स ऑफ़ि
 
 arm64 डिवाइस पर **PICO OS 6.2 या बाद का संस्करण** चाहिए। ऐप का इंटरफ़ेस 18 भाषाओं में उपलब्ध है।
 
-[![PICO Space Pro के लिए Reality Office की चार झलकियाँ। होम स्क्रीन, Pages में कार्यशाला का कार्यक्रम, Sheets में बजट और Slides में स्वागत प्रस्तुति।](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+<p>
+  <a href="../gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
+      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro के लिए Reality Office की चार झलकियाँ। होम स्क्रीन, Pages में कार्यशाला का कार्यक्रम, Sheets में बजट और Slides में स्वागत प्रस्तुति।">
+    </picture>
+  </a>
+</p>
 
 ## दो विंडो साथ रखकर काम करें
 

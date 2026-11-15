@@ -8,7 +8,14 @@ Reality Office는 **PICO Space Pro**를 위해 만든 무료 오픈 소스 오�
 
 arm64 기기에서 **PICO OS 6.2 이상**이 필요합니다. 앱은 18개 언어를 지원합니다.
 
-[![PICO Space Pro용 Reality Office의 홈 화면, Pages의 워크숍 일정표, Sheets의 예산표, Slides의 환영 프레젠테이션.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+<p>
+  <a href="../gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
+      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro용 Reality Office의 홈 화면, Pages의 워크숍 일정표, Sheets의 예산표, Slides의 환영 프레젠테이션.">
+    </picture>
+  </a>
+</p>
 
 ## 여러 창을 나란히 놓고 작업하기
 

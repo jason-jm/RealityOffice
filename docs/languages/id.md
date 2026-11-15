@@ -8,7 +8,14 @@ Reality Office adalah aplikasi perkantoran gratis dan bersumber terbuka untuk **
 
 Memerlukan **PICO OS 6.2 atau lebih baru** pada perangkat arm64. Antarmuka aplikasi tersedia dalam 18 bahasa.
 
-[![Reality Office untuk PICO Space Pro menampilkan beranda, jadwal lokakarya di Pages, anggaran di Sheets, dan presentasi pembuka di Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+<p>
+  <a href="../gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office untuk PICO Space Pro menampilkan beranda, jadwal lokakarya di Pages, anggaran di Sheets, dan presentasi pembuka di Slides.">
+    </picture>
+  </a>
+</p>
 
 ## Bekerja dengan dua jendela berdampingan
 

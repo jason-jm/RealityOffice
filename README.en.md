@@ -8,7 +8,14 @@ Reality Office is a free, open-source office suite built for **PICO Space Pro**.
 
 Requires **PICO OS 6.2 or later** on arm64. The app interface is available in 18 languages.
 
-[![Reality Office for PICO Space Pro. Four screenshots show Home, a Pages run sheet, a Sheets budget and a Slides welcome deck.](docs/gallery/cover-en.jpg)](docs/gallery/cover-en.jpg)
+<p>
+  <a href="docs/gallery/cover-en.jpg">
+    <picture>
+      <source media="(max-width: 600px)" srcset="docs/gallery/cover-en-mobile.jpg">
+      <img src="docs/gallery/cover-en.jpg" alt="Reality Office for PICO Space Pro. Four screenshots show Home, a Pages run sheet, a Sheets budget and a Slides welcome deck.">
+    </picture>
+  </a>
+</p>
 
 ## Working across spatial windows
 
