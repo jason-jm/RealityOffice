@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Local-disk file access. The file browser needs "All files access"
+         (MANAGE_EXTERNAL_STORAGE), granted at runtime via the system settings screen.
+         (minSdk 35: the legacy READ/WRITE_EXTERNAL_STORAGE permissions have no effect.) -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <!-- Slides uses plane detection to place its spatial presentation on a wall. -->
+    <uses-permission android:name="com.picovr.permission.SPATIAL_DATA" />
+
+    <application
+        android:name=".platform.SpatialApplication"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:localeConfig="@xml/locales_config"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpatialApp">
+
+        <!-- App-level Vibrant, declared explicitly (as PICO's design system asks): the system draws the windows'
+             frosted glass as Vibrant glass only when the app says so — without it the glass renders as a flat,
+             dark grey that the app's light surfaces sit on like stickers. -->
+        <meta-data
+            android:name="com.pico.spatial.ui.isVibrant"
+            android:value="true" />
+
+        <!-- SpatialUI's design AAR opts in by default. This app uses the stable SDK APIs. -->
+        <meta-data android:name="pico.spatial.use_experimental_api" tools:node="remove" />
+
+        <!-- System document picker (SAF): transparent, finishes as soon as the pick returns. -->
+        <activity
+            android:name=".platform.PickerActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.Picker" />
+
+        <activity
+            android:name=".platform.LaunchActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.SpatialApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Open documents from file managers / other apps (by MIME type). -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+                <data android:mimeType="application/vnd.ms-word.document.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.template" />
+                <data android:mimeType="application/vnd.ms-word.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+                <data android:mimeType="application/vnd.ms-excel.sheet.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.template" />
+                <data android:mimeType="application/vnd.ms-excel.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+                <data android:mimeType="application/vnd.ms-powerpoint.presentation.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.template" />
+                <data android:mimeType="application/vnd.ms-powerpoint.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.slideshow" />
+                <data android:mimeType="application/vnd.ms-powerpoint.slideshow.macroenabled.12" />
+                <data android:mimeType="application/msword" />
+                <data android:mimeType="application/vnd.ms-excel" />
+                <data android:mimeType="application/vnd.ms-powerpoint" />
+                <data android:mimeType="application/vnd.oasis.opendocument.text" />
+                <data android:mimeType="application/vnd.oasis.opendocument.spreadsheet" />
+                <data android:mimeType="application/vnd.oasis.opendocument.presentation" />
+                <data android:mimeType="application/vnd.oasis.opendocument.text-template" />
+                <data android:mimeType="application/vnd.oasis.opendocument.spreadsheet-template" />
+                <data android:mimeType="application/vnd.oasis.opendocument.presentation-template" />
+                <data android:mimeType="application/wps-office.wps" />
+                <data android:mimeType="application/kswps" />
+                <data android:mimeType="application/vnd.ms-works" />
+                <data android:mimeType="application/wps-office.wpt" />
+                <data android:mimeType="application/wps-office.et" />
+                <data android:mimeType="application/kset" />
+                <data android:mimeType="application/wps-office.ett" />
+                <data android:mimeType="application/wps-office.dps" />
+                <data android:mimeType="application/ksdps" />
+                <data android:mimeType="application/wps-office.dpt" />
+                <data android:mimeType="text/csv" />
+                <data android:mimeType="text/comma-separated-values" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="application/rtf" />
+                <data android:mimeType="text/rtf" />
+                <data android:mimeType="text/markdown" />
+                <data android:mimeType="text/x-markdown" />
+                <data android:mimeType="text/html" />
+            </intent-filter>
+            <!-- …and by extension, for senders that only know a generic MIME type. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:host="*" />
+                <data android:mimeType="*/*" />
+                <data android:pathPattern=".*\\.docx" />
+                <data android:pathPattern=".*\\.doc" />
+                <data android:pathPattern=".*\\.xlsx" />
+                <data android:pathPattern=".*\\.xls" />
+                <data android:pathPattern=".*\\.pptx" />
+                <data android:pathPattern=".*\\.ppt" />
+                <data android:pathPattern=".*\\.ods" />
+                <data android:pathPattern=".*\\.odp" />
+                <data android:pathPattern=".*\\.odt" />
+                <data android:pathPattern=".*\\.csv" />
+                <data android:pathPattern=".*\\.wps" />
+                <data android:pathPattern=".*\\.wpt" />
+                <data android:pathPattern=".*\\.et" />
+                <data android:pathPattern=".*\\.ett" />
+                <data android:pathPattern=".*\\.dps" />
+                <data android:pathPattern=".*\\.dpt" />
+            </intent-filter>
+            <!-- Android shares normally carry the URI in EXTRA_STREAM or ClipData, without a data scheme. -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+                <data android:mimeType="application/vnd.ms-word.document.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.template" />
+                <data android:mimeType="application/vnd.ms-word.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+                <data android:mimeType="application/vnd.ms-excel.sheet.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.template" />
+                <data android:mimeType="application/vnd.ms-excel.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+                <data android:mimeType="application/vnd.ms-powerpoint.presentation.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.template" />
+                <data android:mimeType="application/vnd.ms-powerpoint.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.slideshow" />
+                <data android:mimeType="application/vnd.ms-powerpoint.slideshow.macroenabled.12" />
+                <data android:mimeType="application/msword" />
+                <data android:mimeType="application/vnd.ms-excel" />
+                <data android:mimeType="application/vnd.ms-powerpoint" />
+                <data android:mimeType="application/vnd.oasis.opendocument.text" />
+                <data android:mimeType="application/vnd.oasis.opendocument.spreadsheet" />
+                <data android:mimeType="application/vnd.oasis.opendocument.presentation" />
+                <data android:mimeType="application/vnd.oasis.opendocument.text-template" />
+                <data android:mimeType="application/vnd.oasis.opendocument.spreadsheet-template" />
+                <data android:mimeType="application/vnd.oasis.opendocument.presentation-template" />
+                <data android:mimeType="application/wps-office.wps" />
+                <data android:mimeType="application/kswps" />
+                <data android:mimeType="application/vnd.ms-works" />
+                <data android:mimeType="application/wps-office.wpt" />
+                <data android:mimeType="application/wps-office.et" />
+                <data android:mimeType="application/kset" />
+                <data android:mimeType="application/wps-office.ett" />
+                <data android:mimeType="application/wps-office.dps" />
+                <data android:mimeType="application/ksdps" />
+                <data android:mimeType="application/wps-office.dpt" />
+                <data android:mimeType="text/csv" />
+                <data android:mimeType="text/comma-separated-values" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="application/rtf" />
+                <data android:mimeType="text/rtf" />
+                <data android:mimeType="text/markdown" />
+                <data android:mimeType="text/x-markdown" />
+                <data android:mimeType="text/html" />
+            </intent-filter>
+
+            <!-- Planar DefaultWindowContainer Configuration -->
+
+            <!-- The unique name/id of a WindowContainer -->
+            <meta-data android:name="pico.spatial.windowcontainer.id" android:value="YourPlanarWindowContainer"/>
+
+            <!-- Form/style of the WindowContainer
+                "0": Form.Automatic, a system default setting, set to Form.Planar currently (default)
+                "1": Form.Planar, a form where the WindowContainer behaves like a normal plane with default depth (default)
+                "2": Form.Volumetric, a form where the WindowContainer behaves like a volume allowing custom depth
+             -->
+            <meta-data
+                android:name="pico.spatial.windowcontainer.style"
+                android:value="1" />
+
+            <!-- Default size of the WindowContainer
+                 "[width]x[height]", uses dp as the unit unless specified otherwise
+             -->
+            <meta-data android:name="pico.spatial.windowcontainer.defaultsize" android:value="1280x860" />
+
+            <!-- Unit of default size for the WindowContainer
+                 "dp" — uses density-independent pixels (default)
+                 "meters" — uses meters as the unit
+             -->
+            <meta-data android:name="pico.spatial.windowcontainer.defaultsize.unit" android:value="dp" />
+
+            <!-- Resize type of the WindowContainer
+                "0": ContainerResizeType.Automatic, a system default setting, set to ContainerResizeType.ContentMinSize currently (default)
+                "1": ContainerResizeType.ContentMinSize, constrains that WindowContainer's size cannot be smaller than root view's minSize (default)
+                "2": ContainerResizeType.ContentSize, constrains that WindowContainer's size cannot be smaller than root view's minSize and cannot be larger than root view's maxSize (default)
+             -->
+            <meta-data
+                android:name="pico.spatial.windowcontainer.resizetype"
+                android:value="1" />
+
+            <!-- Resize restriction of the WindowContainer
+                "0": ContainerResizeRestriction.NonUniformResizable, the WindowContainer can be resized freely along any axis (default)
+                "1": ContainerResizeRestriction.UniformResizable, the WindowContainer can only be resized uniformly, maintaining its aspect ratio
+             -->
+            <meta-data
+                android:name="pico.spatial.windowcontainer.resizerestriction"
+                android:value="0" />
+
+            <!-- Scale type of the WindowContainer
+                "0": WorldScale.Automatic, a system default setting, set to WorldScale.Dynamic currently (default)
+                "1": WorldScale.Dynamic, dynamic scale, the window stays comfortably legible and interactive at any distance by scaling up as it moves away and scaling down as it moves closer, creating the illusion of a consistent size
+                "2": WorldScale.Fixed, fixed scale, the window maintains a consistent scale but appears smaller as it moves farther along the z-axis, mimicking how objects in the real world look smaller with distance
+             -->
+            <meta-data android:name="pico.spatial.windowcontainer.worldscaletype" android:value="1" />
+
+            <!-- Caption bar type of the WindowContainer
+                "0": CaptionBarType.Default, the caption bar is always visible (default)
+                "1": CaptionBarType.AutomaticHide, the caption bar hides automatically after 3 seconds of inactivity
+             -->
+            <meta-data android:name="pico.spatial.windowcontainer.captionbar" android:value="0" />
+
+            <!-- Material background of the WindowContainer
+                "0": false, no material background
+                "1": true, uses Material.Regular as the background (default)
+             -->
+            <meta-data
+                android:name="pico.spatial.windowcontainer.materialbackground"
+                android:value="1"/>
+        </activity>
+
+    </application>
+
+</manifest>

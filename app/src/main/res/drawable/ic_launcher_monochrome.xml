@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Reality Office R for themed launcher icons. Geometry matches tools/icons/app-icon.svg. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="1024" android:viewportHeight="1024">
+    <group>
+        <clip-path android:pathData="M292 252 H754 V408 H292 Z M292 424 H754 V582 H292 Z M292 598 H754 V756 H292 Z" />
+        <path android:fillColor="#FFFFFFFF" android:fillType="evenOdd"
+            android:pathData="M292 278 Q292 252 318 252 H522 C650 252 724 319 724 417 C724 487 690 540 626 570 L742 739 Q754 756 733 756 H632 Q621 756 614 746 L501 584 H414 V756 H318 Q292 756 292 730 Z M414 358 V478 H518 C572 478 606 459 606 417 C606 377 574 358 518 358 Z" />
+    </group>
+</vector>

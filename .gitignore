@@ -1,0 +1,56 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+__pycache__/
+build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.kotlin
+
+# Release signing material — never commit
+keystore/
+keystore.properties
+
+# Build artifacts (publish these as GitHub Release assets instead)
+dist/
+
+# Local agent tooling state and host integration scaffolding
+.spatial-agentic-tools/
+.pico-env.json
+.cursor/
+agent-notes/
+CLAUDE.md
+PICO-SPATIAL-AGENTIC-TOOLS.AGENTS.md
+PICO-GENERAL-AGENTIC-TOOLS.AGENTS.md
+
+# Development transcript
+对话历史.md
+
+# >>> pico-cli managed: do not edit >>>
+/.claude/skills/pico-spatial-app-designer/
+/.claude/skills/porting-android-app/
+/.claude/skills/spatial-accessibility/
+/.claude/skills/spatial-app-dev-workflow/
+/.claude/skills/spatial-app-onboarding/
+/.claude/skills/spatial-app-performance-analysis/
+/.claude/skills/spatial-app-performance-workflow/
+/.claude/skills/spatial-bundle-scene-reader/
+/.claude/skills/spatial-design-to-app/
+/.claude/skills/spatial-editor/
+/.claude/skills/spatial-sdk-guideline/
+/.claude/skills/spatial-sdk-scene-builder/
+/.claude/skills/spatial-sdk-update/
+/.claude/skills/spatial-ui-ability/
+/.claude/skills/spatial-ui-design-style/
+/.claude/skills/spatialml-debugging/
+/.claude/skills/spatialml/
+/.claude/skills/threejs-to-spatial/
+/PICO-SPATIAL-AGENTIC-TOOLS.AGENTS.md
+/.pico-env.json
+/.pico/
+/.pico-setup-resources.*.tmp/
+# <<< pico-cli managed <<<

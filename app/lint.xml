@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lint's spelling and dash heuristics only know English well: in the 17 translations they flag correct text (Turkish
+     "Kağıt", Polish postcodes 00-001, dates like 31-1-2026, "punto punto" for a dash-dot-dot line). English keeps them. -->
+<lint>
+    <issue id="Typos">
+        <ignore regexp="values-[a-z]+(-r[A-Z]+)?/strings\.xml" />
+    </issue>
+    <issue id="TypographyDashes">
+        <ignore regexp="values-[a-z]+(-r[A-Z]+)?/strings\.xml" />
+    </issue>
+</lint>
