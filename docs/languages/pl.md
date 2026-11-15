@@ -8,13 +8,13 @@ Reality Office to bezpłatny pakiet biurowy o otwartym kodzie źródłowym, stwo
 
 Wymagany jest system **PICO OS 6.2 lub nowszy** na urządzeniu arm64. Interfejs jest dostępny w 18 językach.
 
-[![Reality Office dla PICO Space Pro. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![Reality Office na PICO Space Pro przedstawia ekran główny, plan warsztatów w Pages, budżet w Sheets i prezentację powitalną w Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## Praca w kilku oknach
 
 Otwórz drugi plik w nowym oknie. Możesz czytać wymagania podczas pisania oferty albo sprawdzać wartości w arkuszu, gdy poprawiasz wykres w prezentacji. Na ekranie głównym znajdziesz szablony raportów, budżetów i prezentacji. Możesz przeszukiwać ostatnio używane pliki i przypinać te, do których często wracasz. Każdy edytor ma wykaz skrótów do pracy z fizyczną klawiaturą.
 
-[![Zobacz ekran główny · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![Na ekranie głównym widać szablony i ostatnio otwierane pliki Saturday Print Club.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Nadaj rozdziałom raportu style nagłówków, aby przechodzić między nimi w ko
 
 Po otrzymaniu poprawionej wersji możesz porównać oba dokumenty i obejrzeć różnice w osobnym pliku. Śledzenie zmian pokazuje autora każdej poprawki i pozwala osobno ją zaakceptować lub odrzucić. Do zaznaczonego fragmentu możesz dodać komentarz, odpowiedzieć w tym samym wątku, a po uzgodnieniu treści oznaczyć sprawę jako rozwiązaną.
 
-[![Pages · Ułóż program spotkania (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · Ułóż program spotkania (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Twórz budżety, zamówienia i prognozy za pomocą formuł odwołujących się d
 
 Zablokuj wiersz nagłówków na czas przewijania, sortuj dane według kilku kolumn i odfiltruj potrzebne rekordy. Listy rozwijane ułatwiają spójne wprowadzanie danych. Formatowanie warunkowe wyróżni kwoty przekraczające limit. Wykres kolumnowy pozwala porównać kategorie, liniowy pokazuje zmiany w czasie, a kołowy przedstawia udziały w całości.
 
-[![Sheets · Sprawdź koszt dodatkowej paczki papieru (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · Sprawdź koszt dodatkowej paczki papieru (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Wybierz układ slajdu, wyrównaj tekst i zdjęcia za pomocą prowadnic oraz doda
 
 Pokaz działa w osobnym panelu, a w widoku prezentera widzisz swoje notatki, bieżący slajd i podgląd następnego. Po udzieleniu dostępu do danych przestrzennych gogle mogą umieścić panel na wykrytej ścianie. Jeśli ściany nie wykryto lub nie udzielisz zgody, slajdy pozostaną na panelu unoszącym się przed tobą.
 
-[![Slides · Saturday Print Club · Przećwicz powitanie](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · Przećwicz powitanie](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## Formaty plików i eksport do PDF
 

@@ -3,48 +3,187 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Reality Office for PICO Space Pro</title>
+  <title>Reality Office for PICO Space Pro · Product posters</title>
   <style>
     * { box-sizing: border-box; }
-    html, body { width: 1800px; height: 900px; margin: 0; overflow: hidden; }
-    body { background: #f6f1e9; color: #172f46; font-family: "Helvetica Neue", Arial, sans-serif; }
-    main { display: grid; grid-template-columns: 590px 1210px; height: 100%; }
-    .intro { padding: 55px 45px 52px 58px; display: flex; flex-direction: column; }
-    .brand { display: flex; align-items: center; gap: 15px; font-size: 23px; font-weight: 600; }
-    .icon { width: 48px; height: 48px; overflow: hidden; border-radius: 11px; background: white; }
-    .icon img { width: 70px; max-width: none; margin: -12px 0 0 -11px; }
-    h1 { margin: 57px 0 0 -6px; font-size: 138px; line-height: .85; letter-spacing: -.08em; }
-    h1 span { display: block; }
-    h1 span + span { margin-top: 8px; }
-    .platform { margin: 30px 0 0; font-size: 45px; line-height: 1.12; letter-spacing: -.045em; }
-    .platform strong { font-weight: 650; }
-    .thumbnails { display: grid; grid-template-columns: 1fr 1fr; gap: 17px; margin-top: auto; }
-    figure { margin: 0; }
-    .thumbnails img { display: block; width: 100%; height: auto; border-radius: 7px; }
-    figcaption { display: flex; align-items: center; gap: 8px; font-size: 18px; margin-top: 13px; }
-    figcaption strong { font-weight: 650; }
-    .detail { color: #385067; }
-    .feature { background: #182f49; color: #faf6e9; padding: 45px 44px; display: flex; flex-direction: column; justify-content: center; }
-    .feature img { width: 100%; height: auto; display: block; border-radius: 12px; }
-    .feature figcaption { margin-top: 22px; font-size: 23px; justify-content: space-between; }
-    .record { font-weight: 400; color: #c6d5dd; font-size: 20px; }
+    :root {
+      --sans: "Helvetica Neue", Arial, sans-serif;
+      --serif: "STIX Two Text", Georgia, serif;
+    }
+    body { margin: 0; background: #e6e3db; font-family: var(--sans); }
+    main { max-width: 1640px; margin: 0 auto; container-type: inline-size; }
+    figure, h1, h2, p { margin: 0; }
+    img { display: block; }
+    main > * + * { margin-top: 24px; }
+    main:has(> :target) > :not(:target) { display: none; }
+    main > :target { margin-top: 0; }
+
+    .cover {
+      display: grid;
+      grid-template-columns: 29% minmax(0, 1fr);
+      align-items: center;
+      gap: 3.2cqw;
+      padding: 3.5cqw;
+      color: #fff7e8;
+      background: #102c40 url("print-texture.webp") center / cover;
+    }
+    .introduction { align-self: stretch; display: flex; flex-direction: column; }
+    .platform { display: flex; align-items: center; gap: .95cqw; }
+    .mark {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 3.9cqw;
+      height: 3.9cqw;
+      border-radius: .78cqw;
+      overflow: hidden;
+      background: #fff;
+    }
+    .mark img { width: 140%; flex: none; }
+    .platform p { font-size: 1.37cqw; line-height: 1.12; }
+    .platform strong { display: block; font-size: 1.95cqw; font-weight: 600; }
+    .cover-copy { margin: auto 0; padding: 2cqw 0 4cqw; }
+    h1 {
+      font: 500 8.05cqw/.87 var(--serif);
+      letter-spacing: -.055em;
+    }
+    h1 em { display: block; font-weight: 400; }
+    .description {
+      max-width: 24cqw;
+      margin-top: 2.25cqw;
+      color: #f0efde;
+      font-size: 2.04cqw;
+      line-height: 1.28;
+      letter-spacing: -.022em;
+    }
+    .screens {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 2.15cqw 1.65cqw;
+      align-items: start;
+    }
+    .screens figcaption {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: .5cqw;
+      padding: 0 .1cqw .55cqw;
+    }
+    .screens strong { font-size: 2.06cqw; font-weight: 600; letter-spacing: -.04em; }
+    .screens span { color: #d5e2e9; font-size: 1.31cqw; }
+    .proof {
+      display: grid;
+      align-items: center;
+      aspect-ratio: 1500 / 1005;
+      padding: .24cqw;
+      background: #e6dece;
+      box-shadow: 0 .3cqw .8cqw rgb(0 12 25 / 30%);
+    }
+    .proof img { width: 100%; height: auto; }
+
+    .feature {
+      position: relative;
+      isolation: isolate;
+      padding: 2.85cqw 4.268292683cqw 3.35cqw;
+      color: var(--ink);
+      background: var(--paper);
+    }
+    .feature::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      inset: 0;
+      background: url("print-texture.webp") center / cover;
+      mix-blend-mode: luminosity;
+      opacity: .065;
+    }
+    #home { --paper: #f6efdf; --ink: #213e4b; }
+    #pages { --paper: #e2ecfa; --ink: #214478; }
+    #sheets { --paper: #e3efe3; --ink: #205441; }
+    #slides { --paper: #fae6d7; --ink: #833f29; }
+    .feature figcaption {
+      display: flex;
+      align-items: baseline;
+      gap: 1.6cqw;
+      margin-bottom: 1.85cqw;
+    }
+    .feature h2 { font: 500 6.15cqw/.95 var(--serif); letter-spacing: -.055em; }
+    .feature figcaption::after {
+      content: "";
+      flex: 1;
+      align-self: center;
+      margin-top: .9cqw;
+      height: .09cqw;
+      background: currentColor;
+      opacity: .35;
+    }
+    .feature figcaption p {
+      order: 1;
+      font-size: 2.65cqw;
+      line-height: 1.15;
+      font-weight: 500;
+      letter-spacing: -.035em;
+    }
+    .feature > img {
+      width: 100%;
+      height: auto;
+      box-shadow: 0 0 0 1px rgb(22 37 38 / 22%), 0 .38cqw 1.1cqw rgb(24 37 36 / 12%);
+    }
   </style>
 </head>
 <body>
   <main>
-    <section class="intro" aria-label="Reality Office">
-      <div class="brand"><span class="icon"><img src="../../tools/icons/app-icon.svg" alt=""></span>Spatial office suite</div>
-      <h1><span>Reality</span><span>Office</span></h1>
-      <p class="platform">Built for<br><strong>PICO Space Pro</strong></p>
-      <div class="thumbnails">
-        <figure><img src="en/pages.webp" alt="The studio schedule in Pages"><figcaption><strong>Pages</strong><span class="detail">/ Run sheet</span></figcaption></figure>
-        <figure><img src="en/sheets.webp" alt="The club materials budget in Sheets"><figcaption><strong>Sheets</strong><span class="detail">/ Budget</span></figcaption></figure>
+    <section class="cover" id="cover" aria-labelledby="title">
+      <div class="introduction">
+        <div class="platform">
+          <span class="mark"><img src="../../tools/icons/app-icon.svg" alt=""></span>
+          <p>Built for <strong>PICO Space Pro</strong></p>
+        </div>
+        <div class="cover-copy">
+          <h1 id="title">Reality <em>Office</em></h1>
+          <p class="description">Documents, spreadsheets and presentations in spatial windows.</p>
+        </div>
+      </div>
+      <div class="screens">
+        <figure>
+          <figcaption><strong>Home</strong><span>File library</span></figcaption>
+          <div class="proof"><img src="en/home.webp" alt="Templates and recent files on the home screen"></div>
+        </figure>
+        <figure>
+          <figcaption><strong>Pages</strong><span>Documents</span></figcaption>
+          <div class="proof"><img src="en/pages.webp" alt="The Saturday Print Club run sheet in Pages"></div>
+        </figure>
+        <figure>
+          <figcaption><strong>Sheets</strong><span>Spreadsheets</span></figcaption>
+          <div class="proof"><img src="en/sheets.webp" alt="The club’s materials budget in Sheets"></div>
+        </figure>
+        <figure>
+          <figcaption><strong>Slides</strong><span>Presentations</span></figcaption>
+          <div class="proof"><img src="en/slides.webp" alt="A welcome slide featuring Hokusai’s Great Wave"></div>
+        </figure>
       </div>
     </section>
-    <figure class="feature">
-      <img src="en/slides.webp" alt="The Saturday Print Club welcome deck in Slides">
-      <figcaption><span><strong>Slides</strong> / Saturday Print Club</span><span class="record">PICO OS 6.2 emulator</span></figcaption>
+
+    <figure class="feature" id="home">
+      <figcaption><h2>Home</h2><p>Start from a template</p></figcaption>
+      <img src="en/home.webp" alt="Blank files, templates and recently opened Saturday Print Club files">
+    </figure>
+    <figure class="feature" id="pages">
+      <figcaption><h2>Pages</h2><p>Lay out a studio schedule</p></figcaption>
+      <img src="en/pages.webp" alt="The print club run sheet with a table of times, activities and locations">
+    </figure>
+    <figure class="feature" id="sheets">
+      <figcaption><h2>Sheets</h2><p>Track a materials budget</p></figcaption>
+      <img src="en/sheets.webp" alt="A materials budget with quantities, prices, a total and the funds left">
+    </figure>
+    <figure class="feature" id="slides">
+      <figcaption><h2>Slides</h2><p>Design a welcome deck</p></figcaption>
+      <img src="en/slides.webp" alt="The Saturday Print Club welcome slide and three slide thumbnails">
     </figure>
   </main>
 </body>
+<!--
+  The paper texture was generated with OpenAI's built-in image generation tool.
+  Create a wide landscape background texture for a set of editorial software posters inspired by a printmaking studio. Make a full-bleed scan of a midnight Prussian-blue ink monotype on fine cotton paper. A few broad, gently curving cobalt brayer marks rise from the lower left edge. Keep the upper half and the entire right half dark and quiet, with subtle paper tooth and plenty of space for lettering and screenshots to be added later. Two blue inks only. No text, objects, screens, symbols, borders or watermarks.
+-->
 </html>

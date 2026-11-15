@@ -8,13 +8,13 @@ Reality Office ist ein kostenloses, quelloffenes Office-Paket für **PICO Space 
 
 Voraussetzung ist **PICO OS 6.2 oder neuer** auf arm64. Die App lässt sich in 18 Sprachen bedienen.
 
-[![Reality Office für PICO Space Pro. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![Reality Office für PICO Space Pro mit Startseite, Ablaufplan in Pages, Materialbudget in Sheets und Willkommenspräsentation in Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## Mit zwei Fenstern arbeiten
 
 Öffne eine zweite Datei in einem neuen Fenster. So kannst du beim Schreiben einer Antwort die ursprüngliche Anfrage lesen oder beim Überarbeiten einer Präsentation Zahlen in der Kalkulation nachschlagen. Auf der Startseite findest du Vorlagen für Berichte, Budgets und Präsentationen. Du kannst zuletzt verwendete Dateien durchsuchen und häufig benötigte Dokumente anheften. Für die Arbeit mit einer physischen Tastatur bietet jeder Editor eine Übersicht seiner Tastenkürzel.
 
-[![Startseite der App ansehen · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![Die Startseite zeigt Vorlagen und zuletzt geöffnete Dateien des Saturday Print Club.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Gliedere einen Bericht mit Überschriftsformaten. Über die Gliederungsansicht s
 
 Bekommst du einen überarbeiteten Entwurf zurück, zeigt der Dokumentvergleich die Unterschiede in einem separaten Dokument. Mit der Änderungsverfolgung siehst du, wer eine Stelle bearbeitet hat, und kannst jede Änderung einzeln annehmen oder ablehnen. Kommentare lassen sich an einer Textstelle verankern, beantworten und nach der Klärung als erledigt markieren.
 
-[![Pages · Den Ablauf für die Werkstatt planen (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · Den Ablauf für die Werkstatt planen (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Erstelle Budgets oder Bestelllisten mit Formeln, die auf andere Tabellenblätter
 
 Fixiere beim Scrollen die Kopfzeile, sortiere nach mehreren Spalten und filtere nach bestimmten Datensätzen. Auswahllisten vereinheitlichen Eingaben. Mit bedingter Formatierung kannst du Beträge über einem Grenzwert hervorheben. Säulen-, Linien- und Kreisdiagramme zeigen Unterschiede, zeitliche Verläufe oder Anteile.
 
-[![Sheets · Ein weiteres Paket Papier einrechnen (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · Ein weiteres Paket Papier einrechnen (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Wähle ein Folienlayout, richte Text und Bilder an Führungslinien aus und füge
 
 Während die Präsentation in einem eigenen Fenster läuft, zeigt die Referentenansicht deine Notizen sowie die aktuelle und die nächste Folie. Mit deiner Freigabe für Raumdaten kannst du die Präsentationsfläche an einer vom Headset erkannten Wand platzieren. Ohne Freigabe oder erkannte Wand schweben die Folien vor dir.
 
-[![Slides · Saturday Print Club · Die Begrüßung proben](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · Die Begrüßung proben](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## Dateiformate und PDF-Export
 

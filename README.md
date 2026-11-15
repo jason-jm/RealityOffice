@@ -8,13 +8,13 @@ Reality Office is a free, open-source office suite built for **PICO Space Pro**.
 
 Requires **PICO OS 6.2 or later** on arm64. The app interface is available in 18 languages.
 
-[![Reality Office, built for PICO Space Pro. The main image shows the Saturday Print Club deck in Slides, beside the Pages schedule and Sheets budget.](docs/gallery/cover-en.jpg)](docs/gallery/cover-en.jpg)
+[![Reality Office for PICO Space Pro. Four screenshots show Home, a Pages run sheet, a Sheets budget and a Slides welcome deck.](docs/gallery/cover-en.jpg)](docs/gallery/cover-en.jpg)
 
 ## Working across spatial windows
 
 Choose **Open in New Window** to put two files side by side. Keep the original brief open while you draft a response, or consult a workbook while you update a chart in a presentation. From the home screen you can start with a report, budget or presentation template, search your recent files, and pin documents you open regularly. Each editor has a keyboard shortcut guide for working with a physical keyboard.
 
-[![The English home screen with blank file templates and the three Saturday Print Club examples in Recent.](docs/gallery/en/home.webp)](docs/gallery/en/home.webp)
+[![Home shows blank files, templates and recently opened Saturday Print Club documents.](docs/gallery/posters/home.webp)](docs/gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Give a long report a structure you can navigate. Apply heading styles, jump betw
 
 When someone returns an edited draft, **Compare** opens the differences in a separate document. With **Track Changes**, you can see who made an edit and accept or reject it individually. Attach a comment to a passage, reply in the thread and mark it resolved when the wording is settled.
 
-[![Pages with the opening schedule, a table of times, printmaking activities and locations.](docs/gallery/en/pages.webp)](docs/gallery/en/pages.webp)
+[![Pages with the opening schedule, a table of times, printmaking activities and locations.](docs/gallery/posters/pages.webp)](docs/gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Use formulas across worksheets to build budgets, order lists or forecasts. `SUMI
 
 Freeze a heading row while you scroll, sort by several columns and filter down to the records you need. Drop-down lists help keep entries consistent. Conditional formatting can flag amounts over a limit, and column, line or pie charts let you compare categories, see a trend or show how a total breaks down.
 
-[![Sheets with an itemised materials budget. Four paper packs bring the total to €96 and leave €24.](docs/gallery/en/sheets.webp)](docs/gallery/en/sheets.webp)
+[![Sheets with an itemised materials budget. Four paper packs bring the total to €96 and leave €24.](docs/gallery/posters/sheets.webp)](docs/gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Start with a slide layout, arrange text and pictures with alignment guides, and 
 
 During a show, the presenter console keeps your notes, the current slide and the next slide in view while the presentation runs in a separate panel. **Present on Wall** can place that panel on a wall detected by the headset when you grant spatial access. If no wall is available or you decline access, the slides float in front of you.
 
-[![Slides editing the Saturday Print Club welcome deck, with Hokusai’s breaking wave on the first slide.](docs/gallery/en/slides.webp)](docs/gallery/en/slides.webp)
+[![Slides editing the Saturday Print Club welcome deck, with Hokusai’s breaking wave on the first slide.](docs/gallery/posters/slides.webp)](docs/gallery/en/slides.webp)
 
 ## File formats and PDF export
 

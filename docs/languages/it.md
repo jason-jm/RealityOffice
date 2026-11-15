@@ -8,13 +8,13 @@ Reality Office è una suite per ufficio gratuita e open source progettata per **
 
 Richiede **PICO OS 6.2 o successivo** su arm64. L’interfaccia è disponibile in 18 lingue.
 
-[![Reality Office per PICO Space Pro. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![Reality Office per PICO Space Pro mostra la schermata iniziale, il programma del laboratorio in Pages, il budget in Sheets e la presentazione di benvenuto in Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## Lavorare con più finestre nel visore
 
 Apri un secondo file in una nuova finestra. Puoi consultare le specifiche mentre scrivi una proposta o controllare un importo nel foglio di calcolo mentre aggiorni un grafico nella presentazione. Nella schermata iniziale trovi modelli per relazioni, bilanci e presentazioni. Puoi cercare tra i file recenti e fissare quelli che usi spesso. Ogni editor include una guida alle scorciatoie per la tastiera fisica.
 
-[![Guarda la schermata iniziale · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![La schermata iniziale mostra i modelli e i file del Saturday Print Club aperti di recente.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Organizza una relazione lunga con gli stili dei titoli, passa da una sezione all
 
 Quando ricevi una bozza corretta, puoi confrontarla con l’originale e leggere le differenze in un documento separato. Con le revisioni puoi vedere chi ha apportato ogni modifica e accettarla o rifiutarla singolarmente. Collega un commento a un passaggio, rispondi nella discussione e contrassegnala come risolta quando il testo è definitivo.
 
-[![Pages · Preparare il programma del laboratorio (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · Preparare il programma del laboratorio (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Usa formule che fanno riferimento a più fogli per gestire preventivi, ordini e 
 
 Blocca la riga di intestazione mentre scorri, ordina per più colonne e filtra le righe che ti interessano. Gli elenchi a discesa aiutano a inserire valori coerenti. Con la formattazione condizionale puoi evidenziare gli importi oltre un limite. I grafici a colonne, a linee o a torta servono a confrontare categorie, seguire un andamento o mostrare le parti di un totale.
 
-[![Sheets · Calcolare il costo di una confezione in più (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · Calcolare il costo di una confezione in più (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Parti da un layout, allinea testi e immagini con le guide e aggiungi tabelle o g
 
 Durante la proiezione, le diapositive appaiono in un pannello separato. La vista del relatore mostra le note, la diapositiva corrente e la successiva. Se consenti l’accesso ai dati spaziali, il visore può posizionare il pannello su una parete rilevata. Se non trova una parete o non concedi il permesso, puoi proseguire sul pannello sospeso davanti a te.
 
-[![Slides · Saturday Print Club · Provare il discorso di benvenuto](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · Provare il discorso di benvenuto](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## Formati dei file ed esportazione in PDF
 

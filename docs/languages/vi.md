@@ -8,13 +8,13 @@ Reality Office là bộ ứng dụng văn phòng miễn phí, mã nguồn mở, 
 
 Yêu cầu **PICO OS 6.2 trở lên** trên thiết bị arm64. Giao diện ứng dụng có 18 ngôn ngữ.
 
-[![Reality Office dành cho PICO Space Pro. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![Reality Office dành cho PICO Space Pro với màn hình chính, lịch sinh hoạt trong Pages, bảng dự toán trong Sheets và bài trình chiếu chào mừng trong Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## Làm việc với nhiều cửa sổ
 
 Mở tệp thứ hai trong cửa sổ mới. Bạn có thể vừa xem bản yêu cầu vừa viết đề xuất, hoặc đối chiếu số liệu trên bảng tính khi cập nhật biểu đồ trong bài thuyết trình. Từ màn hình chính, bạn có thể chọn mẫu báo cáo, ngân sách hay bài trình bày, tìm tệp đã mở gần đây và ghim tài liệu thường dùng. Mỗi trình soạn thảo đều có hướng dẫn phím tắt cho bàn phím vật lý.
 
-[![Xem màn hình chính · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![Màn hình chính hiển thị các mẫu và những tệp Saturday Print Club mở gần đây.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Mở tệp thứ hai trong cửa sổ mới. Bạn có thể vừa xem bản yê
 
 Khi nhận lại bản đã chỉnh sửa, hãy so sánh hai phiên bản để xem các điểm khác biệt trong một tài liệu riêng. Tính năng theo dõi thay đổi cho biết ai đã sửa và cho phép chấp nhận hoặc từ chối từng thay đổi. Bạn có thể bình luận ngay trên một đoạn văn, trả lời trong cùng cuộc trao đổi và đánh dấu đã giải quyết khi chốt được cách diễn đạt.
 
-[![Pages · Sắp xếp lịch hoạt động của xưởng (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · Sắp xếp lịch hoạt động của xưởng (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Dùng công thức tham chiếu nhiều trang tính để lập ngân sách, đ�
 
 Cố định hàng tiêu đề khi cuộn, sắp xếp theo nhiều cột và lọc ra đúng các bản ghi cần xem. Danh sách thả xuống giúp nhập liệu nhất quán. Định dạng có điều kiện làm nổi bật khoản vượt mức. Biểu đồ cột giúp so sánh các nhóm, biểu đồ đường thể hiện xu hướng, còn biểu đồ tròn cho thấy tỷ trọng từng phần.
 
-[![Sheets · Tính chi phí khi mua thêm một gói giấy (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · Tính chi phí khi mua thêm một gói giấy (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Chọn bố cục trang chiếu, dùng đường căn chỉnh để sắp chữ 
 
 Khi bài được chiếu trên một khung riêng, màn hình của người thuyết trình vẫn hiển thị ghi chú, trang hiện tại và trang tiếp theo. Nếu bạn cho phép truy cập dữ liệu không gian, kính có thể đặt khung trình chiếu trên bức tường được nhận diện. Nếu không tìm thấy tường hoặc bạn không cấp quyền, bài trình chiếu vẫn nằm trên khung nổi trước mặt.
 
-[![Slides · Saturday Print Club · Tập lời chào mở đầu](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · Tập lời chào mở đầu](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## Định dạng tệp và xuất PDF
 

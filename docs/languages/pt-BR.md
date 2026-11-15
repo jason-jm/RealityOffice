@@ -8,13 +8,13 @@ O Reality Office é um pacote de escritório gratuito e de código aberto feito 
 
 Requer **PICO OS 6.2 ou superior** em um dispositivo arm64. A interface está disponível em 18 idiomas.
 
-[![Reality Office para PICO Space Pro. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![Reality Office para PICO Space Pro mostra a tela inicial, a programação da oficina no Pages, o orçamento no Sheets e a apresentação de boas-vindas no Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## Trabalhe com duas janelas no headset
 
 Abra um segundo arquivo em uma nova janela. Consulte os requisitos enquanto escreve uma proposta ou confira os valores da planilha enquanto atualiza um gráfico da apresentação. Na tela inicial, escolha um modelo de relatório, orçamento ou apresentação. Você também pode procurar arquivos recentes e fixar os que usa com frequência. Cada editor tem um guia de atalhos para quem usa teclado físico.
 
-[![Ver a tela inicial · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![A tela inicial exibe modelos e arquivos do Saturday Print Club abertos recentemente.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Aplique estilos de título aos capítulos de um relatório, navegue pelas seçõ
 
 Ao receber uma versão revisada, compare os documentos para ver as diferenças em um arquivo separado. Com o controle de alterações, você vê quem fez cada edição e pode aceitá-la ou rejeitá-la individualmente. Também pode comentar um trecho, responder na mesma conversa e marcá-la como resolvida quando a redação estiver definida.
 
-[![Pages · Organize o roteiro do ateliê (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · Organize o roteiro do ateliê (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Use fórmulas que consultam várias abas para preparar orçamentos, pedidos ou p
 
 Congele a linha de cabeçalho ao rolar a planilha, classifique os dados por várias colunas e filtre os registros de interesse. Listas suspensas padronizam o preenchimento e a formatação condicional pode destacar gastos acima do limite. Use gráficos de colunas para comparar categorias, de linhas para ver tendências e de pizza para mostrar a participação de cada item no total.
 
-[![Sheets · Veja quanto custa mais um pacote de papel (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · Veja quanto custa mais um pacote de papel (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Escolha um layout de slide, alinhe o texto e as imagens com as guias e insira ta
 
 Durante a apresentação, um painel separado exibe os slides. A tela do apresentador mostra as notas, o slide atual e o próximo. Com sua permissão de acesso aos dados espaciais, o headset pode posicionar o painel em uma parede detectada. Quando não há uma parede disponível ou você prefere não dar a permissão, os slides ficam em um painel flutuante à sua frente.
 
-[![Slides · Saturday Print Club · Ensaie as boas-vindas](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · Ensaie as boas-vindas](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## Formatos de arquivo e exportação em PDF
 

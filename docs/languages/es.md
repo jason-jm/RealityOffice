@@ -8,13 +8,13 @@ Reality Office es una suite ofimática gratuita y de código abierto diseñada p
 
 Requiere **PICO OS 6.2 o posterior** en un dispositivo arm64. La interfaz está disponible en 18 idiomas.
 
-[![Reality Office para PICO Space Pro. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![Reality Office para PICO Space Pro. Se ven la pantalla de inicio, el programa del taller en Pages, el presupuesto en Sheets y la presentación de bienvenida en Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## Trabajar con varias ventanas
 
 Abre un segundo archivo en una ventana nueva para consultar dos documentos a la vez. Ten a mano las instrucciones mientras redactas una propuesta o consulta la hoja de cálculo al ajustar un gráfico de la presentación. La pantalla de inicio ofrece plantillas para informes, presupuestos y presentaciones. También permite buscar entre los archivos recientes y fijar los que abres a menudo. Cada editor incluye una guía de atajos para el teclado físico.
 
-[![Ver la pantalla de inicio · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![La pantalla de inicio muestra plantillas y archivos recientes de Saturday Print Club.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Estructura un informe largo con estilos de título, desplázate entre apartados 
 
 Si recibes un borrador revisado, la comparación de documentos muestra las diferencias en un archivo aparte. Con el control de cambios puedes ver quién hizo cada modificación y aceptarla o rechazarla por separado. Selecciona un pasaje para comentarlo, responde en el mismo hilo y márcalo como resuelto cuando quede acordada la redacción.
 
-[![Pages · Preparar el programa del taller (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · Preparar el programa del taller (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Relaciona varias hojas mediante fórmulas para preparar presupuestos, pedidos o 
 
 Inmoviliza la fila de encabezados al desplazarte, ordena por varias columnas y filtra los registros que necesitas. Las listas desplegables ayudan a introducir valores uniformes. El formato condicional permite resaltar los importes que superan un límite. Elige gráficos de columnas para comparar categorías, de líneas para ver tendencias o circulares para mostrar proporciones.
 
-[![Sheets · Calcular cuánto cuesta otro paquete de papel (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · Calcular cuánto cuesta otro paquete de papel (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Elige un diseño de diapositiva, alinea texto e imágenes con las guías e incor
 
 Durante el pase, las diapositivas se muestran en un panel independiente. En la vista del presentador permanecen visibles las notas, la diapositiva actual y la siguiente. Si autorizas el acceso a los datos espaciales, el visor puede colocar el panel sobre una pared detectada. Si no localiza una pared o prefieres no dar permiso, el panel queda flotando frente a ti.
 
-[![Slides · Saturday Print Club · Ensayar la bienvenida](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · Ensayar la bienvenida](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## Formatos de archivo y exportación a PDF
 

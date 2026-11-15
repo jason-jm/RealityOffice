@@ -8,13 +8,13 @@ Reality Office adalah aplikasi perkantoran gratis dan bersumber terbuka untuk **
 
 Memerlukan **PICO OS 6.2 atau lebih baru** pada perangkat arm64. Antarmuka aplikasi tersedia dalam 18 bahasa.
 
-[![Reality Office untuk PICO Space Pro. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![Reality Office untuk PICO Space Pro menampilkan beranda, jadwal lokakarya di Pages, anggaran di Sheets, dan presentasi pembuka di Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## Bekerja dengan dua jendela berdampingan
 
 Buka berkas kedua di jendela baru. Anda bisa merujuk ke spesifikasi saat menyusun proposal atau memeriksa angka di lembar kerja sambil memperbarui grafik dalam presentasi. Di layar utama, pilih templat laporan, anggaran, atau presentasi, telusuri berkas yang baru dibuka, dan sematkan dokumen yang sering digunakan. Setiap editor menyediakan panduan pintasan untuk papan ketik fisik.
 
-[![Lihat layar utama · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![Beranda menampilkan templat dan berkas Saturday Print Club yang baru dibuka.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Susun laporan dengan gaya judul, berpindah bagian dari kerangka dokumen, lalu si
 
 Saat menerima draf yang sudah disunting, bandingkan kedua versi untuk melihat perbedaannya dalam dokumen tersendiri. Pelacakan perubahan menampilkan siapa yang melakukan setiap suntingan dan memungkinkan Anda menerima atau menolaknya satu per satu. Beri komentar pada bagian tertentu, balas dalam utas yang sama, dan tandai selesai setelah redaksinya disepakati.
 
-[![Pages · Susun jadwal studio (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · Susun jadwal studio (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Susun anggaran, pesanan, atau perkiraan dengan rumus yang merujuk ke beberapa le
 
 Bekukan baris judul saat menggulir, urutkan berdasarkan beberapa kolom, dan saring catatan yang ingin diperiksa. Daftar pilihan membantu menjaga konsistensi isian. Pemformatan bersyarat dapat menyoroti pengeluaran di atas batas. Gunakan grafik kolom untuk membandingkan kategori, grafik garis untuk melihat tren, dan diagram lingkaran untuk menunjukkan proporsi.
 
-[![Sheets · Hitung biaya tambahan satu pak kertas (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · Hitung biaya tambahan satu pak kertas (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Pilih tata letak slide, sejajarkan teks dan gambar dengan garis bantu, lalu tamb
 
 Ketika presentasi berjalan di panel terpisah, tampilan penyaji menunjukkan catatan, slide saat ini, dan slide berikutnya. Dengan izin akses data spasial, headset dapat menempatkan panel pada dinding yang terdeteksi. Jika tidak ada dinding yang terdeteksi atau Anda tidak memberi izin, slide tetap tampil pada panel yang melayang di depan Anda.
 
-[![Slides · Saturday Print Club · Latih sambutan pembuka](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · Latih sambutan pembuka](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## Format berkas dan ekspor PDF
 

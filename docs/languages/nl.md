@@ -8,13 +8,13 @@ Reality Office is een gratis opensource-kantoorpakket voor **PICO Space Pro**. M
 
 Vereist **PICO OS 6.2 of hoger** op arm64. De app is in 18 talen te gebruiken.
 
-[![Reality Office voor PICO Space Pro. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![Reality Office voor PICO Space Pro met het beginscherm, een draaiboek in Pages, een begroting in Sheets en een welkomstpresentatie in Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## Met twee vensters naast elkaar werken
 
 Open een tweede bestand in een nieuw venster. Zo kun je tijdens het schrijven van een voorstel de oorspronkelijke opdracht raadplegen, of een getal in de spreadsheet controleren terwijl je een grafiek in de presentatie bijwerkt. Vanaf het beginscherm open je sjablonen voor rapporten, begrotingen en presentaties. Je kunt recente bestanden doorzoeken en veelgebruikte documenten vastmaken. Elke editor heeft een overzicht van sneltoetsen voor een fysiek toetsenbord.
 
-[![Bekijk het beginscherm · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![Het beginscherm toont sjablonen en recent geopende bestanden van de Saturday Print Club.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Geef de hoofdstukken van een rapport een kopstijl. Via het overzicht spring je n
 
 Krijg je een bewerkte versie terug, dan kun je de twee documenten vergelijken. De verschillen verschijnen in een apart document. Met bijgehouden wijzigingen zie je wie een passage heeft aangepast en kun je elke wijziging afzonderlijk accepteren of weigeren. Zet een opmerking bij een tekstfragment, reageer in dezelfde discussie en markeer die als opgelost zodra de tekst vaststaat.
 
-[![Pages · Stel het draaiboek op (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · Stel het draaiboek op (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Bouw begrotingen en bestellijsten op met formules die naar andere werkbladen ver
 
 Zet de koprij vast bij het scrollen, sorteer op meerdere kolommen en filter de records die je nodig hebt. Keuzelijsten houden de invoer consistent. Voorwaardelijke opmaak kan bedragen boven een grens markeren. Met kolom-, lijn- of cirkeldiagrammen laat je verschillen, trends of aandelen van het totaal zien.
 
-[![Sheets · Reken een extra pak papier mee (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · Reken een extra pak papier mee (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Kies een dia-indeling, lijn tekst en afbeeldingen uit met hulplijnen en voeg tab
 
 Tijdens de voorstelling staan de dia’s in een apart venster. In de presentatorweergave houd je de huidige dia, de volgende dia en je notities in beeld. Met toestemming voor ruimtelijke gegevens kan de headset het presentatiepaneel op een herkende muur plaatsen. Als er geen muur wordt gevonden of je geen toestemming geeft, zweeft het paneel voor je.
 
-[![Slides · Saturday Print Club · Oefen het welkomstwoord](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · Oefen het welkomstwoord](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## Bestandsindelingen en PDF-export
 

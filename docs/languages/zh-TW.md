@@ -8,13 +8,13 @@ Reality Office 是專為 **PICO Space Pro** 打造的免費開源辦公軟體。
 
 適用於執行 **PICO OS 6.2 或更新版本**的 arm64 裝置。應用程式介面提供 18 種語言。
 
-[![專為 PICO Space Pro 打造的 Reality Office. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![專為 PICO Space Pro 打造的 Reality Office。海報展示應用程式首頁、Pages 活動流程表、Sheets 材料預算和 Slides 歡迎簡報。](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## 在空間中並排使用視窗
 
 選擇在新視窗開啟檔案，就能同時看見兩份資料。寫提案時把需求文件放在旁邊，更新簡報圖表時則可以對照試算表。首頁提供報告、預算和簡報範本，也能搜尋最近使用的檔案，或將常用文件釘選到清單。搭配實體鍵盤時，可在各編輯器查看適用的快速鍵。
 
-[![查看應用程式首頁 · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![首頁列出檔案範本和最近開啟的 Saturday Print Club 文件。](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Reality Office 是專為 **PICO Space Pro** 打造的免費開源辦公軟體。
 
 收到修改後的草稿，使用比較功能即可在另一份文件中查看兩版差異。開啟追蹤修訂後，可以查看每一處變更的作者，逐項接受或拒絕。針對某段文字留下註解，在同一則討論中回覆，定稿後再標記為已解決。
 
-[![Pages · 安排開場流程 (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · 安排開場流程 (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Reality Office 是專為 **PICO Space Pro** 打造的免費開源辦公軟體。
 
 瀏覽長表時可以凍結標題列、依多欄排序，或篩選出所需的記錄。下拉式清單有助統一輸入值，設定格式化條件則能標出超支的數字。要說明資料時，可用直條圖比較類別、用折線圖觀察趨勢，或用圓餅圖呈現比例。
 
-[![Sheets · 多買一包紙要花多少 (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · 多買一包紙要花多少 (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Reality Office 是專為 **PICO Space Pro** 打造的免費開源辦公軟體。
 
 播放時，簡報會顯示在獨立面板，講者控制台則顯示目前投影片、下一張預覽和備忘稿。允許空間資料存取後，可以把放映面板貼到頭戴裝置偵測到的牆面。若沒有偵測到牆面，或你選擇不授權，投影片會顯示在面前的浮動面板上。
 
-[![Slides · Saturday Print Club · 排練歡迎致詞](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · 排練歡迎致詞](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## 檔案格式與 PDF 匯出
 

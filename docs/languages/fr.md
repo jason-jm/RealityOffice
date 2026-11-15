@@ -8,13 +8,13 @@ Reality Office est une suite bureautique libre et gratuite conçue pour **PICO S
 
 Nécessite **PICO OS 6.2 ou une version ultérieure** sur arm64. L’interface est disponible en 18 langues.
 
-[![Reality Office pour PICO Space Pro. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![Reality Office pour PICO Space Pro présente son écran d’accueil, le planning de l’atelier dans Pages, le budget dans Sheets et le diaporama de bienvenue dans Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## Travailler avec deux fenêtres dans le casque
 
 Ouvrez un deuxième fichier dans une nouvelle fenêtre. Consultez le cahier des charges tout en rédigeant votre réponse, ou vérifiez les chiffres dans un classeur pendant la mise à jour d’un graphique de présentation. Depuis l’accueil, vous pouvez choisir un modèle de rapport, de budget ou de présentation, rechercher un fichier récent et épingler vos documents habituels. Chaque éditeur dispose d’un guide des raccourcis pour le clavier physique.
 
-[![Voir l’écran d’accueil · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![L’écran d’accueil affiche des modèles et les fichiers récemment ouverts du Saturday Print Club.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Structurez un rapport avec des styles de titre. Le plan permet de passer d’une
 
 Si l’on vous renvoie une version corrigée, la comparaison fait apparaître les différences dans un document distinct. Le suivi des modifications indique qui a retouché le texte et permet d’accepter ou de refuser chaque correction. Vous pouvez commenter un passage précis, répondre dans le même fil et clore la discussion une fois la formulation adoptée.
 
-[![Pages · Préparer le déroulé de l’atelier (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · Préparer le déroulé de l’atelier (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Reliez plusieurs feuilles par des formules pour préparer un budget, une command
 
 Figez la ligne des titres pour la garder visible, triez sur plusieurs colonnes et filtrez les enregistrements. Les listes déroulantes facilitent une saisie homogène et la mise en forme conditionnelle permet de signaler les montants hors budget. Comparez des catégories avec un graphique en colonnes, suivez une évolution avec une courbe ou montrez la répartition d’un total avec un diagramme circulaire.
 
-[![Sheets · Chiffrer un paquet de papier de plus (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · Chiffrer un paquet de papier de plus (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Choisissez une disposition, alignez le texte et les images à l’aide des repè
 
 Pendant le diaporama, la présentation s’affiche sur un panneau distinct et le mode Présentateur garde sous les yeux vos notes, la diapositive en cours et la suivante. Avec votre accord pour l’accès aux données spatiales, le casque peut placer le panneau sur un mur détecté. Sans mur disponible ou sans autorisation, les diapositives restent sur un panneau flottant devant vous.
 
-[![Slides · Saturday Print Club · Répéter le mot d’accueil](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · Répéter le mot d’accueil](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## Formats de fichiers et export PDF
 

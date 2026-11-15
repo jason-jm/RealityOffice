@@ -1,15 +1,21 @@
 # Reality Office on PICO Space Pro
 
-Reality Office is built for PICO Space Pro. These are English in-app views of the signed 1.3.4 release (build 9) in the PICO OS 6.2.0 emulator. The room is part of the simulator. All 18 product guides use this same set of screenshots. [Choose a language](../languages/README.md) · [PICO’s device and emulator FAQ](https://developer.picoxr.com/document/discover/faqs-for-project-swan-and-pico-os-6/)
+Home, Pages, Sheets and Slides are shown with the same Saturday Print Club files. The four feature posters open their original screenshots when you click them. [Choose a language](../languages/README.md) · [Download the editable examples](../../examples/print-club/)
 
-| View | What’s open |
-| --- | --- |
-| [Product poster](cover-en.jpg) | The three editors and the Saturday Print Club welcome deck |
-| [Home](en/home.webp) | File templates and recently opened documents |
-| [Pages](en/pages.webp) | The studio run sheet |
-| [Sheets](en/sheets.webp) | The materials budget |
-| [Slides](en/slides.webp) | The opening slide with a detail of Hokusai’s *The Great Wave* |
+[![Reality Office for PICO Space Pro with Home, a Pages schedule, a Sheets budget and a Slides welcome deck.](cover-en.jpg)](cover-en.jpg)
 
-The editors opened the files from the [Saturday Print Club example pack](../../examples/print-club/). Each picture was captured with a square 3200 × 3200 spatial view, cropped around the window and scaled proportionately. To reproduce the 1800 × 900 poster, open the [poster layout](cover-layout.html) from a local checkout and export at 1×.
+[![Home with templates and recently opened documents.](posters/home.webp)](en/home.webp)
+
+[![Pages with the studio run sheet and opening schedule.](posters/pages.webp)](en/pages.webp)
+
+[![Sheets with supply quantities, prices and the remaining budget.](posters/sheets.webp)](en/sheets.webp)
+
+[![Slides with the Saturday Print Club welcome deck and Hokusai’s Great Wave.](posters/slides.webp)](en/slides.webp)
+
+## How the posters were made
+
+The four English screenshots come from the signed 1.3.4 release (build 9) running in the PICO OS 6.2.0 emulator. The room around each window is part of the simulator. Each capture was cropped from a square 3200 × 3200 view and scaled proportionally to 1500 pixels wide. The feature posters place these images at their full 1500-pixel width. All 18 product guides share the same artwork. [PICO’s device and emulator FAQ](https://developer.picoxr.com/document/discover/faqs-for-project-swan-and-pico-os-6/)
+
+To reproduce the posters, open the [layout](cover-layout.html) in Chromium from a local checkout. Select a single poster by adding `#cover`, `#home`, `#pages`, `#sheets` or `#slides` to the address. Set the viewport to 1640 pixels wide at 1× and capture the selected element. Save the cover as JPEG. For each feature poster, place the original screenshot at its native size, 70 pixels from the left and 173 from the top, then export as lossless WebP. The generated blue ink texture sits behind the typography and original captures. [Background texture](print-texture.webp)
 
 The woodblock print pictured inside Slides is in the public domain. [The Metropolitan Museum of Art, object 45434](https://www.metmuseum.org/art/collection/search/45434)

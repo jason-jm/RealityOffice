@@ -8,13 +8,13 @@ Reality Office は **PICO Space Pro** 向けの無料で使えるオープンソ
 
 arm64 の **PICO OS 6.2 以降**に対応。アプリの表示言語は 18 種類から選べます。
 
-[![PICO Space Pro のための Reality Office. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![PICO Space Pro 向け Reality Office。ホーム画面、Pages の進行表、Sheets の予算表、Slides のウェルカムスライド。](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## 複数のウィンドウで作業する
 
 新しいウィンドウでファイルを開くと、2 つの資料を並べられます。要件を読みながら提案書を書いたり、表計算の数値を確かめながらスライドのグラフを直したりできます。ホーム画面には報告書、予算表、プレゼンテーションのテンプレートがあり、最近使ったファイルの検索やピン留めもできます。各エディターには物理キーボード用のショートカット一覧があります。
 
-[![ホーム画面を見る · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![ホーム画面にテンプレートと、最近開いた Saturday Print Club のファイルが並んでいる。](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ arm64 の **PICO OS 6.2 以降**に対応。アプリの表示言語は 18 種�
 
 修正稿を受け取ったら、文書の比較機能で差分を別の文書に表示できます。変更履歴では編集者を確認し、修正を一件ずつ承諾または却下できます。文章を選んでコメントを付け、同じスレッドに返信し、表現が決まったら解決済みにできます。
 
-[![Pages · 当日の進行表を整える (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · 当日の進行表を整える (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ arm64 の **PICO OS 6.2 以降**に対応。アプリの表示言語は 18 種�
 
 見出し行を固定してスクロールし、複数の列で並べ替え、フィルターでデータを絞り込めます。ドロップダウンリストで入力を統一し、条件付き書式で予算を超えた金額を強調できます。項目の比較には縦棒グラフ、推移には折れ線グラフ、構成比には円グラフが使えます。
 
-[![Sheets · 用紙を一包み追加する (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · 用紙を一包み追加する (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ arm64 の **PICO OS 6.2 以降**に対応。アプリの表示言語は 18 種�
 
 発表中はスライドが別のパネルに映り、発表者用の画面には現在のスライド、次のスライド、ノートが並びます。空間データへのアクセスを許可すると、ヘッドセットが検出した壁にパネルを配置できます。壁が見つからない場合や許可しない場合は、目の前に浮かぶパネルで上映できます。
 
-[![Slides · Saturday Print Club · 開会の挨拶を練習する](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · 開会の挨拶を練習する](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## ファイル形式と PDF 書き出し
 

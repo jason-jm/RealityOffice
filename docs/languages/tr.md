@@ -8,13 +8,13 @@ Reality Office, **PICO Space Pro** için geliştirilmiş ücretsiz ve açık kay
 
 arm64 cihazlarda **PICO OS 6.2 veya üzeri** gerekir. Uygulama arayüzü 18 dilde kullanılabilir.
 
-[![PICO Space Pro için Reality Office. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![PICO Space Pro için Reality Office. Afişte ana ekran, Pages’te atölye programı, Sheets’te bütçe ve Slides’ta karşılama sunusu yer alıyor.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## Yan yana pencerelerde çalışın
 
 İkinci dosyayı yeni bir pencerede açın. Böylece teklifi yazarken şartnameyi okuyabilir ya da sunudaki grafiği güncellerken rakamları hesap tablosundan kontrol edebilirsiniz. Ana ekrandan rapor, bütçe veya sunu şablonu seçebilir, son kullanılan dosyalarda arama yapabilir ve sık açtığınız belgeleri listeye sabitleyebilirsiniz. Her düzenleyicide fiziksel klavyeyle kullanabileceğiniz kısayolları gösteren bir kılavuz bulunur.
 
-[![Ana ekranı görüntüle · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![Ana ekranda şablonlar ve Saturday Print Club’ın son açılan dosyaları görünüyor.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ Uzun bir raporda başlık stilleriyle bölümleri belirleyin. Ana hat görünüm
 
 Düzeltilmiş bir taslak aldığınızda belgeleri karşılaştırıp farkları ayrı bir belgede inceleyebilirsiniz. Değişiklikleri izleme özelliği kimin neyi düzenlediğini gösterir. Her değişikliği tek tek kabul edebilir veya reddedebilirsiniz. Seçtiğiniz metne yorum ekleyebilir, aynı yazışmada yanıt verebilir ve konu netleştiğinde görüşmeyi çözüldü olarak işaretleyebilirsiniz.
 
-[![Pages · Atölye programını hazırlayın (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · Atölye programını hazırlayın (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ Düzeltilmiş bir taslak aldığınızda belgeleri karşılaştırıp farkları 
 
 Listeyi kaydırırken başlık satırını dondurabilir, birden çok sütuna göre sıralama yapabilir ve kayıtları süzebilirsiniz. Açılır listeler veri girişini tutarlı kılar. Koşullu biçimlendirme ile sınırı aşan tutarları vurgulayın. Sütun grafiğiyle kategorileri, çizgi grafiğiyle değişimi, pasta grafiğiyle toplam içindeki payları gösterebilirsiniz.
 
-[![Sheets · Bir paket daha kâğıdın maliyetini hesaplayın (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · Bir paket daha kâğıdın maliyetini hesaplayın (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ Bir slayt düzeni seçin, metin ve resimleri kılavuzlarla hizalayın, tablo vey
 
 Gösteri ayrı bir panelde oynarken sunucu görünümünde notlarınızı, geçerli slaydı ve bir sonrakini görürsünüz. Mekânsal verilere erişim izni verdiğinizde başlık, sunu panelini algıladığı bir duvara yerleştirebilir. Duvar bulunmazsa veya izin vermemeyi seçerseniz slaytlar önünüzde duran bir panelde gösterilir.
 
-[![Slides · Saturday Print Club · Açılış konuşmasını prova edin](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · Açılış konuşmasını prova edin](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## Dosya biçimleri ve PDF olarak dışa aktarma
 

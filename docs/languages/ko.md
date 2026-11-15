@@ -8,13 +8,13 @@ Reality Office는 **PICO Space Pro**를 위해 만든 무료 오픈 소스 오�
 
 arm64 기기에서 **PICO OS 6.2 이상**이 필요합니다. 앱은 18개 언어를 지원합니다.
 
-[![PICO Space Pro를 위한 Reality Office. Pages, Sheets, Slides.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
+[![PICO Space Pro용 Reality Office의 홈 화면, Pages의 워크숍 일정표, Sheets의 예산표, Slides의 환영 프레젠테이션.](../gallery/cover-en.jpg)](../gallery/cover-en.jpg)
 
 ## 여러 창을 나란히 놓고 작업하기
 
 파일을 새 창에서 열면 두 문서를 동시에 볼 수 있습니다. 요구 사항을 읽으면서 제안서를 쓰거나, 스프레드시트와 대조하면서 발표 자료의 수치를 고쳐 보세요. 홈 화면에서 보고서, 예산표, 프레젠테이션 서식을 선택하고, 최근 파일을 검색하거나 자주 쓰는 문서를 고정할 수 있습니다. 실제 키보드를 연결했다면 편집기별 단축키 안내도 이용할 수 있습니다.
 
-[![홈 화면 보기 · Pages, Sheets, Slides](../gallery/en/home.webp)](../gallery/en/home.webp)
+[![홈 화면에 템플릿과 최근에 연 Saturday Print Club 파일이 표시됩니다.](../gallery/posters/home.webp)](../gallery/en/home.webp)
 
 <a name="pages-editor"></a>
 
@@ -24,7 +24,7 @@ arm64 기기에서 **PICO OS 6.2 이상**이 필요합니다. 앱은 18개 언�
 
 수정본을 받으면 문서 비교 기능으로 두 버전의 차이를 별도 문서에서 확인하세요. 변경 내용 추적을 켜면 누가 무엇을 고쳤는지 살피고 수정 사항을 하나씩 적용하거나 거부할 수 있습니다. 구절을 선택해 메모를 달고 답글을 주고받은 뒤 논의가 끝나면 해결됨으로 표시할 수 있습니다.
 
-[![Pages · 공방 일정을 정리하기 (DOCX)](../gallery/en/pages.webp)](../gallery/en/pages.webp)
+[![Pages · 공방 일정을 정리하기 (DOCX)](../gallery/posters/pages.webp)](../gallery/en/pages.webp)
 
 <a name="sheets-editor"></a>
 
@@ -34,7 +34,7 @@ arm64 기기에서 **PICO OS 6.2 이상**이 필요합니다. 앱은 18개 언�
 
 제목 행을 고정한 채 아래로 스크롤하고, 여러 열을 기준으로 정렬하거나 원하는 기록만 필터링할 수 있습니다. 드롭다운 목록으로 입력을 통일하고, 조건부 서식으로 한도를 넘긴 금액을 강조하세요. 세로 막대형, 꺾은선형, 원형 차트로 항목별 차이, 추이, 구성 비율을 나타낼 수 있습니다.
 
-[![Sheets · 종이를 한 묶음 더 주문하기 (€120 / €96 / €24)](../gallery/en/sheets.webp)](../gallery/en/sheets.webp)
+[![Sheets · 종이를 한 묶음 더 주문하기 (€120 / €96 / €24)](../gallery/posters/sheets.webp)](../gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
@@ -44,7 +44,7 @@ arm64 기기에서 **PICO OS 6.2 이상**이 필요합니다. 앱은 18개 언�
 
 발표 중 슬라이드는 별도 패널에 표시되고 발표자 화면에는 현재 슬라이드, 다음 슬라이드, 노트가 함께 보입니다. 공간 데이터 접근을 허용하면 헤드셋이 감지한 벽에 발표 패널을 배치할 수 있습니다. 벽을 찾지 못하거나 권한을 허용하지 않으면 눈앞의 플로팅 패널에서 발표를 이어 갑니다.
 
-[![Slides · Saturday Print Club · 환영 인사 연습하기](../gallery/en/slides.webp)](../gallery/en/slides.webp)
+[![Slides · Saturday Print Club · 환영 인사 연습하기](../gallery/posters/slides.webp)](../gallery/en/slides.webp)
 
 ## 지원 파일 형식과 PDF 내보내기
 
