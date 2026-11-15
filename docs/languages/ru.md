@@ -12,7 +12,7 @@ Reality Office — бесплатный офисный пакет с откры�
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="Reality Office для PICO Space Pro. На плакате видны главный экран, план мастер-класса в Pages, смета в Sheets и приветственная презентация в Slides.">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office для PICO Space Pro. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>

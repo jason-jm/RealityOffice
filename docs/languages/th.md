@@ -12,7 +12,7 @@ Reality Office เป็นชุดโปรแกรมสำนักงา�
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="Reality Office สำหรับ PICO Space Pro แสดงหน้าหลัก กำหนดการเวิร์กช็อปใน Pages งบประมาณใน Sheets และสไลด์ต้อนรับใน Slides">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office สำหรับ PICO Space Pro. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>

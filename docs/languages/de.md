@@ -12,7 +12,7 @@ Voraussetzung ist **PICO OS 6.2 oder neuer** auf arm64. Die App lässt sich in 1
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="Reality Office für PICO Space Pro mit Startseite, Ablaufplan in Pages, Materialbudget in Sheets und Willkommenspräsentation in Slides.">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office für PICO Space Pro. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>

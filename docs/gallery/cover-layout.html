@@ -18,84 +18,38 @@
     main:has(> :target) > :not(:target) { display: none; }
     main > :target { margin-top: 0; }
 
-    .cover {
-      padding: 2.2cqw 2.3cqw 2.5cqw;
-      color: #fff7e8;
-      background: #102c40 url("print-texture.webp") left bottom / cover;
-    }
-    .introduction {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 2cqw;
-      padding-bottom: 1.3cqw;
-      margin-bottom: 1.25cqw;
-      border-bottom: 1px solid rgb(241 238 222 / 45%);
-    }
-    .cover-brand { display: flex; align-items: center; gap: 1.25cqw; }
-    .mark {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 4.1cqw;
-      height: 4.1cqw;
-      border-radius: .8cqw;
-      overflow: hidden;
-      background: #fff;
-    }
-    .mark img { width: 140%; flex: none; }
-    .cover h1 {
-      font: 500 5.85cqw/1 var(--serif);
-      letter-spacing: -.055em;
-      white-space: nowrap;
-    }
-    .cover h1 em { font-weight: 400; }
-    .platform { font-size: 1.5cqw; line-height: 1.12; text-align: right; }
-    .platform strong {
-      display: block;
-      font-size: 2.2cqw;
-      font-weight: 600;
-      white-space: nowrap;
-    }
-    .screens {
+    main:has(> #cover:target) { max-width: 1800px; }
+    .cover { position: relative; aspect-ratio: 2; overflow: hidden; }
+    .cover-spread {
+      position: absolute;
+      inset: 0 auto auto 0;
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 1.6cqw 1.5cqw;
-      align-items: start;
+      grid-template-columns: 590px 1210px;
+      width: 1800px;
+      height: 900px;
+      color: #172f46;
+      background: #f6f1e9;
+      transform-origin: top left;
+      transform: scale(calc(100cqw / 1800px));
     }
-    .screens figcaption {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      gap: .5cqw;
-      padding: 0 .1cqw .5cqw;
-    }
-    .screens strong { font-size: 2.25cqw; font-weight: 600; letter-spacing: -.04em; }
-    .screens span { color: #d5e2e9; font-size: 1.48cqw; }
-    .proof {
-      aspect-ratio: 1.56;
-      overflow: hidden;
-      border: .16cqw solid #e6dece;
-      background: #e6dece;
-      box-shadow: 0 .3cqw .8cqw rgb(0 12 25 / 30%);
-    }
-    .proof img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.035); }
-    .home-proof img { transform: scale(1.11); }
-
-    @container (max-width: 600px) {
-      .cover { padding: 3.6cqw 3.1cqw 4cqw; }
-      .introduction { margin-bottom: 2.5cqw; padding-bottom: 2.4cqw; }
-      .cover-brand { gap: 1.5cqw; }
-      .mark { width: 6.2cqw; height: 6.2cqw; border-radius: 1.15cqw; }
-      .cover h1 { font-size: 8.15cqw; }
-      .platform { font-size: 2.6cqw; }
-      .platform strong { font-size: 3.5cqw; }
-      .screens { grid-template-columns: 1fr; gap: 3.3cqw; }
-      .screens figcaption { padding-bottom: 1.15cqw; }
-      .screens strong { font-size: 5.05cqw; }
-      .screens span { font-size: 3.25cqw; }
-      .proof { border-width: .33cqw; }
-    }
+    .cover .intro { padding: 55px 45px 52px 58px; display: flex; flex-direction: column; }
+    .cover .brand { display: flex; align-items: center; gap: 15px; font-size: 23px; font-weight: 600; }
+    .cover .icon { width: 48px; height: 48px; overflow: hidden; border-radius: 11px; background: white; }
+    .cover .icon img { display: inline; width: 70px; max-width: none; margin: -12px 0 0 -11px; }
+    .cover h1 { margin: 57px 0 0 -6px; font-size: 138px; line-height: .85; letter-spacing: -.08em; }
+    .cover h1 span { display: block; }
+    .cover h1 span + span { margin-top: 8px; }
+    .cover .platform { margin: 30px 0 0; font-size: 45px; line-height: 1.12; letter-spacing: -.045em; }
+    .cover .platform strong { font-weight: 650; }
+    .cover .thumbnails { display: grid; grid-template-columns: 1fr 1fr; gap: 17px; margin-top: auto; }
+    .cover .thumbnails img { display: block; width: 100%; height: auto; border-radius: 7px; }
+    .cover figcaption { display: flex; align-items: center; gap: 8px; font-size: 18px; margin-top: 13px; }
+    .cover figcaption strong { font-weight: 650; }
+    .cover .detail { color: #385067; }
+    .cover .slide-feature { background: #182f49; color: #faf6e9; padding: 45px 44px; display: flex; flex-direction: column; justify-content: center; }
+    .cover .slide-feature img { width: 100%; height: auto; display: block; border-radius: 12px; }
+    .cover .slide-feature figcaption { margin-top: 22px; font-size: 23px; justify-content: space-between; }
+    .cover .record { font-weight: 400; color: #c6d5dd; font-size: 20px; }
 
     .feature {
       position: relative;
@@ -149,30 +103,20 @@
 </head>
 <body>
   <main>
-    <section class="cover" id="cover" aria-labelledby="title">
-      <header class="introduction">
-        <div class="cover-brand">
-          <span class="mark"><img src="../../tools/icons/app-icon.svg" alt=""></span>
-          <h1 id="title">Reality <em>Office</em></h1>
-        </div>
-        <p class="platform">Built for <strong>PICO Space Pro</strong></p>
-      </header>
-      <div class="screens">
-        <figure>
-          <figcaption><strong>Home</strong><span>File library</span></figcaption>
-          <div class="proof home-proof"><img src="en/home.webp" alt="Templates and recent files on the home screen"></div>
-        </figure>
-        <figure>
-          <figcaption><strong>Pages</strong><span>Documents</span></figcaption>
-          <div class="proof"><img src="en/pages.webp" alt="The Saturday Print Club run sheet in Pages"></div>
-        </figure>
-        <figure>
-          <figcaption><strong>Sheets</strong><span>Spreadsheets</span></figcaption>
-          <div class="proof"><img src="en/sheets.webp" alt="The club’s materials budget in Sheets"></div>
-        </figure>
-        <figure>
-          <figcaption><strong>Slides</strong><span>Presentations</span></figcaption>
-          <div class="proof"><img src="en/slides.webp" alt="A welcome slide featuring Hokusai’s Great Wave"></div>
+    <section class="cover" id="cover" aria-label="Reality Office for PICO Space Pro">
+      <div class="cover-spread">
+        <section class="intro" aria-label="Reality Office">
+          <div class="brand"><span class="icon"><img src="../../tools/icons/app-icon.svg" alt=""></span>Spatial office suite</div>
+          <h1><span>Reality</span><span>Office</span></h1>
+          <p class="platform">Built for<br><strong>PICO Space Pro</strong></p>
+          <div class="thumbnails">
+            <figure><img src="en/pages.webp" alt="The studio schedule in Pages"><figcaption><strong>Pages</strong><span class="detail">/ Run sheet</span></figcaption></figure>
+            <figure><img src="en/sheets.webp" alt="The club materials budget in Sheets"><figcaption><strong>Sheets</strong><span class="detail">/ Budget</span></figcaption></figure>
+          </div>
+        </section>
+        <figure class="slide-feature">
+          <img src="en/slides.webp" alt="The Saturday Print Club welcome deck in Slides">
+          <figcaption><span><strong>Slides</strong> / Saturday Print Club</span><span class="record">PICO OS 6.2 emulator</span></figcaption>
         </figure>
       </div>
     </section>

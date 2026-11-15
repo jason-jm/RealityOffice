@@ -12,7 +12,7 @@ Memerlukan **PICO OS 6.2 atau lebih baru** pada perangkat arm64. Antarmuka aplik
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="Reality Office untuk PICO Space Pro menampilkan beranda, jadwal lokakarya di Pages, anggaran di Sheets, dan presentasi pembuka di Slides.">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office untuk PICO Space Pro. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>

@@ -12,7 +12,7 @@ Yêu cầu **PICO OS 6.2 trở lên** trên thiết bị arm64. Giao diện ứn
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="Reality Office dành cho PICO Space Pro với màn hình chính, lịch sinh hoạt trong Pages, bảng dự toán trong Sheets và bài trình chiếu chào mừng trong Slides.">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office dành cho PICO Space Pro. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>

@@ -12,7 +12,7 @@ Richiede **PICO OS 6.2 o successivo** su arm64. L’interfaccia è disponibile i
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="Reality Office per PICO Space Pro mostra la schermata iniziale, il programma del laboratorio in Pages, il budget in Sheets e la presentazione di benvenuto in Slides.">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office per PICO Space Pro. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>

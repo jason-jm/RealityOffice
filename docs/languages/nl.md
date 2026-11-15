@@ -12,7 +12,7 @@ Vereist **PICO OS 6.2 of hoger** op arm64. De app is in 18 talen te gebruiken.
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="Reality Office voor PICO Space Pro met het beginscherm, een draaiboek in Pages, een begroting in Sheets en een welkomstpresentatie in Slides.">
+      <img src="../gallery/cover-en.jpg" alt="Reality Office voor PICO Space Pro. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>

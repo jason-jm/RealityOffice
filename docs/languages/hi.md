@@ -12,7 +12,7 @@ arm64 डिवाइस पर **PICO OS 6.2 या बाद का संस�
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro के लिए Reality Office की चार झलकियाँ। होम स्क्रीन, Pages में कार्यशाला का कार्यक्रम, Sheets में बजट और Slides में स्वागत प्रस्तुति।">
+      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro के लिए Reality Office. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>

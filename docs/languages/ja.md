@@ -12,7 +12,7 @@ arm64 の **PICO OS 6.2 以降**に対応。アプリの表示言語は 18 種�
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro 向け Reality Office。ホーム画面、Pages の進行表、Sheets の予算表、Slides のウェルカムスライド。">
+      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro のための Reality Office. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>

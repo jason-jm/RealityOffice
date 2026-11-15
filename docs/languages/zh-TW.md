@@ -12,7 +12,7 @@ Reality Office 是專為 **PICO Space Pro** 打造的免費開源辦公軟體。
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="專為 PICO Space Pro 打造的 Reality Office。海報展示應用程式首頁、Pages 活動流程表、Sheets 材料預算和 Slides 歡迎簡報。">
+      <img src="../gallery/cover-en.jpg" alt="專為 PICO Space Pro 打造的 Reality Office。右側是 Slides 中的 Saturday Print Club 歡迎簡報，左下是 Pages 活動流程表與 Sheets 材料預算。">
     </picture>
   </a>
 </p>

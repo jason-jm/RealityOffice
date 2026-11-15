@@ -12,7 +12,7 @@ Requires **PICO OS 6.2 or later** on arm64. The app interface is available in 18
   <a href="docs/gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="docs/gallery/cover-en-mobile.jpg">
-      <img src="docs/gallery/cover-en.jpg" alt="Reality Office for PICO Space Pro. Four screenshots show Home, a Pages run sheet, a Sheets budget and a Slides welcome deck.">
+      <img src="docs/gallery/cover-en.jpg" alt="Reality Office, built for PICO Space Pro. The main image shows the Saturday Print Club deck in Slides, beside the Pages schedule and Sheets budget.">
     </picture>
   </a>
 </p>

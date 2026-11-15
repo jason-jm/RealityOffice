@@ -12,7 +12,7 @@ arm64 기기에서 **PICO OS 6.2 이상**이 필요합니다. 앱은 18개 언�
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro용 Reality Office의 홈 화면, Pages의 워크숍 일정표, Sheets의 예산표, Slides의 환영 프레젠테이션.">
+      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro를 위한 Reality Office. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>

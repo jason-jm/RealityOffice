@@ -12,7 +12,7 @@ arm64 cihazlarda **PICO OS 6.2 veya üzeri** gerekir. Uygulama arayüzü 18 dild
   <a href="../gallery/cover-en.jpg">
     <picture>
       <source media="(max-width: 600px)" srcset="../gallery/cover-en-mobile.jpg">
-      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro için Reality Office. Afişte ana ekran, Pages’te atölye programı, Sheets’te bütçe ve Slides’ta karşılama sunusu yer alıyor.">
+      <img src="../gallery/cover-en.jpg" alt="PICO Space Pro için Reality Office. Pages, Sheets, Slides.">
     </picture>
   </a>
 </p>
