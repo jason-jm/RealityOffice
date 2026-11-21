@@ -29,10 +29,10 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.therealityteam.aeropages"
+        applicationId = "com.therealityteam.realityoffice"
         minSdk = 35
         targetSdk = 35
-        versionCode = 9
+        versionCode = 10
         versionName = "1.3.4"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

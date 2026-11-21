@@ -6,7 +6,7 @@
 
 Reality Office는 **PICO Space Pro**를 위해 만든 무료 오픈 소스 오피스 앱입니다. [Pages](#pages-editor)에서 문서를 작성하고 검토하고, [Sheets](#sheets-editor)에서 데이터를 분석하고, [Slides](#slides-editor)에서 발표 자료를 만들어 상영할 수 있습니다. 세 편집기 모두 오프라인으로 작동합니다. 참고 문서를 펼쳐 둔 채 옆 창에서 작업하고, 같은 파일을 컴퓨터로 옮겨 이어서 편집할 수 있습니다.
 
-**[1.3.4 다운로드(APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [설치 안내 (EN)](../INSTALL.md#english)
+**[1.3.4 다운로드(APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4-build10/RealityOffice-v1.3.4-build10.apk)** · [설치 안내 (EN)](../INSTALL.md#english)
 
 arm64 기기에서 **PICO OS 6.2 이상**이 필요합니다. 앱은 18개 언어를 지원합니다.
 

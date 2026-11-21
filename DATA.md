@@ -1,6 +1,6 @@
 # Reality Office privacy policy · 隐私政策
 
-The Reality Team · Reality Office 1.3.4 (build 9) · 2026-11-14
+The Reality Team · Reality Office 1.3.4 (builds 9 and 10) · 2026-11-21
 
 ## English
 

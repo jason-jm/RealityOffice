@@ -4,7 +4,7 @@
 
 Reality Office puts a document editor, a spreadsheet and a presentation studio on **PICO Space Pro**. Write the running order for a show in [Documents](#pages-editor), find the most-played track in [Spreadsheets](#sheets-editor) and cue the first slide in [Presentations](#slides-editor). Open two files side by side in the headset, then take the same editable files back to your computer.
 
-**[Visit the official website](https://jason-jm.github.io/RealityOffice/)** · [Watch the 33-second film](https://jason-jm.github.io/RealityOffice/#film) · **[Download 1.3.4 (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Installation guide](docs/INSTALL.md#english)
+**[Visit the official website](https://jason-jm.github.io/RealityOffice/)** · [Watch the 33-second film](https://jason-jm.github.io/RealityOffice/#film) · **[Download 1.3.4 (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4-build10/RealityOffice-v1.3.4-build10.apk)** · [Installation guide](docs/INSTALL.md#english)
 
 Free and open source under MIT. Works offline in 18 interface languages. Requires **PICO OS 6.2 or later** on arm64.
 

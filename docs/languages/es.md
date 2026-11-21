@@ -6,7 +6,7 @@
 
 Reality Office es una suite ofimática gratuita y de código abierto diseñada para **PICO Space Pro**. Con [Pages](#pages-editor) puedes redactar y revisar documentos, con [Sheets](#sheets-editor) analizar datos y con [Slides](#slides-editor) preparar y dar una presentación. Los tres editores funcionan sin conexión. Puedes mantener el documento de referencia a la vista mientras trabajas en otra ventana y seguir editando los mismos archivos en el ordenador.
 
-**[Descargar la versión 1.3.4 (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Guía de instalación (EN)](../INSTALL.md#english)
+**[Descargar la versión 1.3.4 (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4-build10/RealityOffice-v1.3.4-build10.apk)** · [Guía de instalación (EN)](../INSTALL.md#english)
 
 Requiere **PICO OS 6.2 o posterior** en un dispositivo arm64. La interfaz está disponible en 18 idiomas.
 

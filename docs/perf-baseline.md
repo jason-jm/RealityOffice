@@ -68,10 +68,10 @@ ADB="$(command -v adb)"
 DEV=your-device-serial   # from pico-cli device list
 pico-cli app install app/build/outputs/apk/debug/app-debug.apk --device $DEV
 pico-cli shell --device $DEV "setprop debug.aero.module sheets; setprop debug.aero.dialog bigsheet100k"
-pico-cli app launch com.therealityteam.aeropages --activity .platform.LaunchActivity --device $DEV
-pico-cli perf live run --app com.therealityteam.aeropages --device $DEV --adb $ADB -d 15 --save -o sheets-100k.json
+pico-cli app launch com.therealityteam.realityoffice --device $DEV
+pico-cli perf live run --app com.therealityteam.realityoffice --device $DEV --adb $ADB -d 15 --save -o sheets-100k.json
 pico-cli shell --device $DEV "logcat -d -s AeroPerf"
-pico-cli shell --device $DEV "dumpsys meminfo com.therealityteam.aeropages | grep 'TOTAL PSS'"
+pico-cli shell --device $DEV "dumpsys meminfo com.therealityteam.realityoffice | grep 'TOTAL PSS'"
 pico-cli shell --device $DEV "setprop debug.aero.dialog ''; setprop debug.aero.module ''"
 ```
 
