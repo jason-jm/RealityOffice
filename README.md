@@ -2,11 +2,11 @@
 
 **English** · [Deutsch](docs/languages/de.md) · [Español](docs/languages/es.md) · [Français](docs/languages/fr.md) · [Bahasa Indonesia](docs/languages/id.md) · [Italiano](docs/languages/it.md) · [Nederlands](docs/languages/nl.md) · [Polski](docs/languages/pl.md) · [Português (Brasil)](docs/languages/pt-BR.md) · [Русский](docs/languages/ru.md) · [Türkçe](docs/languages/tr.md) · [Tiếng Việt](docs/languages/vi.md) · [हिन्दी](docs/languages/hi.md) · [ไทย](docs/languages/th.md) · [日本語](docs/languages/ja.md) · [한국어](docs/languages/ko.md) · [简体中文](docs/languages/zh-CN.md) · [繁體中文](docs/languages/zh-TW.md)
 
-Reality Office is a free, open-source office suite built for **PICO Space Pro**. Write and review documents in [Pages](#pages-editor), analyze data in [Sheets](#sheets-editor), and design and deliver presentations in [Slides](#slides-editor). Each editor works offline. You can keep a source document within view while you work on a spreadsheet or slide deck in a second window, then take the editable files back to your computer.
+Reality Office puts a document editor, a spreadsheet and a presentation studio on **PICO Space Pro**. Write the running order for a show in [Documents](#pages-editor), find the most-played track in [Spreadsheets](#sheets-editor) and cue the first slide in [Presentations](#slides-editor). Open two files side by side in the headset, then take the same editable files back to your computer.
 
-**[Download 1.3.4 (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Installation guide](docs/INSTALL.md#english)
+**[Visit the official website](https://jason-jm.github.io/RealityOffice/)** · [Watch the 33-second film](https://jason-jm.github.io/RealityOffice/#film) · **[Download 1.3.4 (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Installation guide](docs/INSTALL.md#english)
 
-Requires **PICO OS 6.2 or later** on arm64. The app interface is available in 18 languages.
+Free and open source under MIT. Works offline in 18 interface languages. Requires **PICO OS 6.2 or later** on arm64.
 
 <p>
   <a href="docs/gallery/cover-en.jpg">
@@ -17,6 +17,18 @@ Requires **PICO OS 6.2 or later** on arm64. The app interface is available in 18
   </a>
 </p>
 
+## See the three editors in action
+
+| What you want to do | Where to start |
+| --- | --- |
+| Write or review a document | **Documents · DOCX**. Lay out headings and tables, compare drafts and accept individual revisions. |
+| Explore a workbook | **Spreadsheets · XLSX**. Calculate across sheets, sort and filter a range, then chart the results. |
+| Give a presentation | **Presentations · PPTX**. Build a deck and rehearse with notes. The audience gets a separate slide window. |
+
+The English product film follows the same live set through all three editors. Select the image to play it on the official website.
+
+[![Reality Office for PICO Space Pro. Play the film showing Documents, Spreadsheets and Presentations.](docs/site/trailer-poster.webp)](https://jason-jm.github.io/RealityOffice/#film)
+
 ## Working across spatial windows
 
 Choose **Open in New Window** to put two files side by side. Keep the original brief open while you draft a response, or consult a workbook while you update a chart in a presentation. From the home screen you can start with a report, budget or presentation template, search your recent files, and pin documents you open regularly. Each editor has a keyboard shortcut guide for working with a physical keyboard.
@@ -25,7 +37,7 @@ Choose **Open in New Window** to put two files side by side. Keep the original b
 
 <a name="pages-editor"></a>
 
-## Pages · Document layout and review
+## Documents · Layout and review in Pages
 
 Give a long report a structure you can navigate. Apply heading styles, jump between sections in the outline and insert a linked table of contents with page numbers. Place pictures and tables in the text, add footnotes and use headers and footers to carry a title or page number across the document.
 
@@ -35,17 +47,17 @@ When someone returns an edited draft, **Compare** opens the differences in a sep
 
 <a name="sheets-editor"></a>
 
-## Sheets · Formulas, charts and data analysis
+## Spreadsheets · Formulas and charts in Sheets
 
-Use formulas across worksheets to build budgets, order lists or forecasts. `SUMIFS` adds only the rows that meet your criteria, while `XLOOKUP` can bring a matching price into an order sheet. If you know the result you need, **Goal Seek** can work backwards to find an input, such as the unit price that brings an order within budget.
+Link values across worksheets or use a formula such as `MAX` to find the most-played track in a set. `SUMIFS` adds the rows that meet your criteria and `XLOOKUP` returns matching records. When you know the result you need, **Goal Seek** works backwards to find a suitable input.
 
 Freeze a heading row while you scroll, sort by several columns and filter down to the records you need. Drop-down lists help keep entries consistent. Conditional formatting can flag amounts over a limit, and column, line or pie charts let you compare categories, see a trend or show how a total breaks down.
 
-[![Sheets with an itemised materials budget. Four paper packs bring the total to €96 and leave €24.](docs/gallery/posters/sheets.webp)](docs/gallery/en/sheets.webp)
+[![Sheets showing the Saturday Print Club materials workbook with editable quantities, prices and formulas.](docs/gallery/posters/sheets.webp)](docs/gallery/en/sheets.webp)
 
 <a name="slides-editor"></a>
 
-## Slides · Design, rehearsal and spatial presentation
+## Presentations · Design and delivery in Slides
 
 Start with a slide layout, arrange text and pictures with alignment guides, and add tables or charts. Apply a transition between slides or animate an object to reveal a point as you speak. You can add notes to each slide and record how long you spend on it during rehearsal.
 
@@ -61,7 +73,7 @@ During a show, the presenter console keeps your notes, the current slide and the
 | Sheets | XLSX, ODS, CSV | XLS |
 | Slides | PPTX, ODP | PPT |
 
-All three editors export to PDF when you want to share a finished copy. Edits to older DOC, XLS and PPT files are saved in a newer format alongside the original. CSV is useful for exchanging a sheet of values. Choose XLSX or ODS to keep formulas, formatting and multiple worksheets together.
+Reality Office opens files from Microsoft Word (DOCX), Excel (XLSX) and PowerPoint (PPTX). All three editors export to PDF when you want to share a finished copy. Edits to older DOC, XLS and PPT files are saved in a newer format alongside the original. CSV is useful for exchanging a sheet of values. Choose XLSX or ODS to keep formulas, formatting and multiple worksheets together.
 
 ## Offline editing, privacy and recovery
 

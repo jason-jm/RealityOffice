@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f8f5">
+  <title>Reality Office · 为 PICO Space Pro 打造的办公套件</title>
+  <meta name="description" content="在 PICO Space Pro 上撰写文档、分析表格和放映演示。Reality Office 是免费的开源空间办公套件，支持离线编辑、双窗口和 18 种界面语言。">
+  <link rel="canonical" href="https://jason-jm.github.io/RealityOffice/zh-cn/">
+  <link rel="alternate" hreflang="en" href="https://jason-jm.github.io/RealityOffice/">
+  <link rel="alternate" hreflang="zh-CN" href="https://jason-jm.github.io/RealityOffice/zh-cn/">
+  <link rel="alternate" hreflang="x-default" href="https://jason-jm.github.io/RealityOffice/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Reality Office">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="Reality Office · 为 PICO Space Pro 打造的办公套件">
+  <meta property="og:description" content="在 PICO Space Pro 上撰写文档、分析表格和放映演示。Reality Office 是免费的开源空间办公套件，支持离线编辑、双窗口和 18 种界面语言。">
+  <meta property="og:url" content="https://jason-jm.github.io/RealityOffice/zh-cn/">
+  <meta property="og:image" content="https://jason-jm.github.io/RealityOffice/site/social-card.jpg">
+  <meta property="og:image:alt" content="Reality Office for PICO Space Pro">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="../site/icon.png">
+  <link rel="preload" href="../site/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../site/office.css">
+  <script defer src="../site/office.js"></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="topline">
+    <div class="shell mast">
+      <a class="brand" href="#top" aria-label="Reality Office"><img src="../site/icon.png" width="32" height="32" alt=""><span>Reality Office</span></a>
+      <nav class="navigation" aria-label="主导航"><a href="#editors">三个编辑器</a><a href="#spatial">空间窗口</a><a href="#formats">文件格式</a></nav>
+      <div class="nav-actions">
+        <a class="quiet-link" href="https://github.com/jason-jm/RealityOffice">GitHub <span class="ext" aria-hidden="true">↗</span></a>
+        <details class="switch"><summary aria-label="网站语言">中文 <i class="chevron" aria-hidden="true"></i></summary>
+          <div class="menu-panel"><a lang="en" hreflang="en" href="../">English</a><a lang="zh-CN" hreflang="zh-CN" href="../zh-cn/" aria-current="page">简体中文</a><a href="#guides">全部 18 种语言</a></div>
+        </details>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="shell hero" aria-labelledby="product">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="platform label"><i class="mark" aria-hidden="true"></i>专为 PICO Space Pro 打造</div>
+          <h1 id="product">Reality <span>Office</span></h1>
+          <p class="hero-intro">在你的空间里撰写文档、分析表格、放映演示。把参考资料放在手边，抬眼就能对照。</p>
+          <div class="actions"><a class="button primary" href="https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk"><i class="download" aria-hidden="true"></i>下载 APK</a><a class="button secondary" href="#film" data-watch><i class="play" aria-hidden="true"></i>观看宣传片</a></div>
+          <p class="requirements">免费 · 版本 1.3.4 · PICO OS 6.2 或更高 · arm64</p>
+        </div>
+        <figure>
+          <a class="hero-zoom" href="../site/hero-wide.webp" aria-label="查看完整的空间窗口大图"><picture class="hero-image">
+            <source media="(max-width:700px)" srcset="../site/hero-mobile.webp">
+            <img width="1440" height="1070" src="../site/hero-panel.webp" fetchpriority="high" alt="在采光明亮的 PICO 空间中，演出流程文档和 Soundcheck 演示文稿分别悬浮在两个窗口里。">
+          </picture></a>
+          <figcaption class="hero-caption"><span class="caption-mark">空间中的 Pages 文档与 Slides 演示</span><span>PICO OS 6.2</span></figcaption>
+        </figure>
+      </div>
+      <nav class="file-rail" aria-label="跳转至编辑器">
+        <a class="file-link documents" href="#documents"><i class="file-icon" aria-hidden="true"></i>文档<span class="file-ext">.docx</span></a>
+        <a class="file-link sheets" href="#spreadsheets"><i class="file-icon" aria-hidden="true"></i>电子表格<span class="file-ext">.xlsx</span></a>
+        <a class="file-link slides" href="#presentations"><i class="file-icon" aria-hidden="true"></i>演示文稿<span class="file-ext">.pptx</span></a>
+      </nav>
+    </section>
+    <section id="editors" class="shell section" aria-labelledby="editors-title">
+      <div class="section-head"><h2 id="editors-title">三个编辑器</h2><p>从一场现场演出开始。写下流程，找出播放次数最多的曲目，再做一份彩排时能直接放映的演示。</p></div>
+      <div class="editors-grid">
+        <article class="editor documents" id="documents">
+          <a class="editor-art" href="../site/editor-documents.webp"><img src="../site/editor-documents.webp" width="900" height="785" loading="lazy" alt="Pages 的演出流程文档展示了时间表和文字格式工具。"></a>
+          <h3>文档</h3><span class="formats">DOCX / ODT / TXT</span>
+          <p>用标题、表格和可点击的目录梳理长文。对照两份草稿，逐条接受或拒绝修订，也可以选中一段文字发起讨论。</p>
+        </article>
+        <article class="editor sheets" id="spreadsheets">
+          <a class="editor-art" href="../site/editor-spreadsheets.webp"><img src="../site/editor-spreadsheets.webp" width="900" height="785" loading="lazy" alt="Sheets 以一张表格和柱状图展示各首曲目的播放次数。"></a>
+          <h3>电子表格</h3><span class="formats">XLSX / ODS / CSV</span>
+          <p>用跨表公式计算，按播放次数排序，或筛出某个场地的记录。把结果做成图表，也可以用单变量求解从目标值反推输入。</p>
+        </article>
+        <article class="editor slides" id="presentations">
+          <a class="editor-art" href="../site/editor-presentations.webp"><img src="../site/editor-presentations.webp" width="900" height="785" loading="lazy" alt="Slides 的橙色 Soundcheck 封面上是一张黑胶唱片，后面是另外两种幻灯片版式。"></a>
+          <h3>演示文稿</h3><span class="formats">PPTX / ODP</span>
+          <p>用版式、图片和切换效果组织内容。排练时记录用时，放映时自己查看备注和下一页，让观众看到单独的演示画面。</p>
+        </article>
+      </div>
+    </section>
+    <div class="shell">
+      <section id="spatial" class="space" aria-labelledby="space-title">
+        <figure><img src="../site/spatial-windows.webp" width="1600" height="900" loading="lazy" alt="PICO OS 模拟器同时打开两个真实窗口，前方是曲目数据和图表，后方是文档。"></figure>
+        <div class="space-copy"><span class="eyebrow">空间窗口</span><h2 id="space-title">两份文件，并排打开。</h2><p>选择「在新窗口打开」，就能把资料放在视线里。在 Pages 里看演出流程，同时在 Sheets 里核对曲目数据。两份文件各占一个 PICO Space Pro 空间窗口。</p></div>
+      </section>
+    </div>
+    <section id="film" class="film section" aria-labelledby="film-title">
+      <div class="shell film-layout">
+        <div class="film-copy"><span class="eyebrow">产品宣传片 · 00:33</span><h2 id="film-title">看一场空间办公演示。</h2><p>33 秒英文宣传片带你实际看一遍，怎样把一份演出流程写成文档、整理成图表，再放上演示屏。</p></div>
+        <div class="film-frame"><video controls playsinline preload="none" width="1920" height="1080" poster="../site/trailer-poster.webp" aria-label="Reality Office 英文产品宣传片">
+          <source src="../film/reality-office.mp4" type="video/mp4">
+          <track kind="captions" srclang="en" label="English" src="../film/en.vtt">
+          <a href="../film/reality-office.mp4">下载英文宣传片</a>
+        </video></div>
+      </div>
+    </section>
+    <section id="formats" class="shell section" aria-labelledby="compat-title">
+      <div class="specs-layout">
+        <div class="specs-intro"><span class="eyebrow">文件兼容性</span><h2 id="compat-title">继续用手上的文件。</h2><p>Microsoft Word、Excel 和 PowerPoint 的文件都能在对应的编辑器里打开。定稿后可以导出 PDF，方便发给别人。</p><a class="textlink" href="https://github.com/jason-jm/RealityOffice/blob/main/docs/FEATURES.md">完整格式说明（英文） <span aria-hidden="true">↗</span></a></div>
+        <div>
+          <table class="specs-table" aria-label="文件格式"><thead><tr><th scope="col">编辑器</th><th scope="col">打开和保存</th><th scope="col">还可打开</th></tr></thead><tbody>
+            <tr><th scope="row">文档</th><td>DOCX, ODT, TXT</td><td>DOC, RTF</td></tr>
+            <tr><th scope="row">电子表格</th><td>XLSX, ODS, CSV</td><td>XLS</td></tr>
+            <tr><th scope="row">演示文稿</th><td>PPTX, ODP</td><td>PPT</td></tr>
+          </tbody></table>
+          <p class="specs-note">较早的 DOC、XLS 和 PPT 格式会另存为可编辑的新副本。三个编辑器都支持导出 PDF。</p>
+        </div>
+      </div>
+      <div class="principles"><article><h3>离线办公</h3><p>文件可以直接在头显上打开和保存，无需注册应用账号，离线也能继续编辑。</p></article>
+        <article><h3>恢复草稿</h3><p>自动保存会把编辑写入本机。意外中断后，可从自动恢复提供的草稿继续。</p></article>
+        <article><h3>使用熟悉的语言</h3><p>界面有 18 种语言可选。三个编辑器都内置了实体键盘快捷键指南。</p></article></div>
+    </section>
+    <section class="download-block" aria-labelledby="download-title"><div class="shell download-layout">
+      <div><h2 id="download-title">下载 Reality Office</h2><p>适用于运行 PICO OS 6.2 或更高版本的 PICO Space Pro。</p></div>
+      <div class="actions"><a class="button primary" href="https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk"><i class="download" aria-hidden="true"></i>下载 APK</a><a class="textlink" href="https://github.com/jason-jm/RealityOffice/blob/main/docs/INSTALL.md#简体中文">安装指南 <span aria-hidden="true">↗</span></a></div>
+    </div></section>
+  </main>
+  <footer class="shell">
+    <div class="foot"><a class="brand" href="#top"><img src="../site/icon.png" width="32" height="32" alt=""><span>Reality Office</span></a><nav aria-label="项目链接"><a href="https://github.com/jason-jm/RealityOffice">源代码</a><a href="https://github.com/jason-jm/RealityOffice/blob/main/DATA.md#简体中文">隐私说明</a><a href="https://github.com/jason-jm/RealityOffice/blob/main/LICENSE">MIT 许可证</a></nav></div>
+    <section class="langs" id="guides"><h2>18 种语言的产品指南</h2>
+      <nav aria-label="18 种语言的产品指南"><a lang="en" hreflang="en" href=".././">English</a>
+          <a lang="de" hreflang="de" href="../guides/de/">Deutsch</a>
+          <a lang="es" hreflang="es" href="../guides/es/">Español</a>
+          <a lang="fr" hreflang="fr" href="../guides/fr/">Français</a>
+          <a lang="id" hreflang="id" href="../guides/id/">Bahasa Indonesia</a>
+          <a lang="it" hreflang="it" href="../guides/it/">Italiano</a>
+          <a lang="nl" hreflang="nl" href="../guides/nl/">Nederlands</a>
+          <a lang="pl" hreflang="pl" href="../guides/pl/">Polski</a>
+          <a lang="pt-BR" hreflang="pt-BR" href="../guides/pt-br/">Português (Brasil)</a>
+          <a lang="ru" hreflang="ru" href="../guides/ru/">Русский</a>
+          <a lang="tr" hreflang="tr" href="../guides/tr/">Türkçe</a>
+          <a lang="vi" hreflang="vi" href="../guides/vi/">Tiếng Việt</a>
+          <a lang="hi" hreflang="hi" href="../guides/hi/">हिन्दी</a>
+          <a lang="th" hreflang="th" href="../guides/th/">ไทย</a>
+          <a lang="ja" hreflang="ja" href="../guides/ja/">日本語</a>
+          <a lang="ko" hreflang="ko" href="../guides/ko/">한국어</a>
+          <a lang="zh-CN" hreflang="zh-CN" href="../zh-cn/">简体中文</a>
+          <a lang="zh-TW" hreflang="zh-TW" href="../guides/zh-tw/">繁體中文</a></nav>
+    </section>
+  </footer>
+</body>
+</html>

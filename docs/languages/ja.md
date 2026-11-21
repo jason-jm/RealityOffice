@@ -2,6 +2,8 @@
 
 [English](../../README.md) · [Deutsch](de.md) · [Español](es.md) · [Français](fr.md) · [Bahasa Indonesia](id.md) · [Italiano](it.md) · [Nederlands](nl.md) · [Polski](pl.md) · [Português (Brasil)](pt-BR.md) · [Русский](ru.md) · [Türkçe](tr.md) · [Tiếng Việt](vi.md) · [हिन्दी](hi.md) · [ไทย](th.md) · **日本語** · [한국어](ko.md) · [简体中文](zh-CN.md) · [繁體中文](zh-TW.md)
 
+[公式サイト](https://jason-jm.github.io/RealityOffice/guides/ja/) · [製品紹介映像](https://jason-jm.github.io/RealityOffice/#film)
+
 Reality Office は **PICO Space Pro** 向けの無料で使えるオープンソースのオフィスソフトです。[Pages](#pages-editor) で文書を執筆・校閲し、[Sheets](#sheets-editor) でデータを集計し、[Slides](#slides-editor) で資料を作って発表できます。3 つのエディターはオフラインで動作します。参照資料を開いたまま隣のウィンドウで作業し、編集可能なファイルをパソコンに持ち帰れます。
 
 **[1.3.4 をダウンロード（APK）](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [インストールガイド (EN)](../INSTALL.md#english)

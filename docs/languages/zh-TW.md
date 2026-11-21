@@ -2,6 +2,8 @@
 
 [English](../../README.md) · [Deutsch](de.md) · [Español](es.md) · [Français](fr.md) · [Bahasa Indonesia](id.md) · [Italiano](it.md) · [Nederlands](nl.md) · [Polski](pl.md) · [Português (Brasil)](pt-BR.md) · [Русский](ru.md) · [Türkçe](tr.md) · [Tiếng Việt](vi.md) · [हिन्दी](hi.md) · [ไทย](th.md) · [日本語](ja.md) · [한국어](ko.md) · [简体中文](zh-CN.md) · **繁體中文**
 
+[官方網站](https://jason-jm.github.io/RealityOffice/guides/zh-tw/) · [觀看 33 秒英文產品影片](https://jason-jm.github.io/RealityOffice/zh-cn/#film)
+
 Reality Office 是專為 **PICO Space Pro** 打造的免費開源辦公軟體。用 [Pages](#pages-editor) 撰寫、排版和審閱文件，用 [Sheets](#sheets-editor) 計算與分析資料，再用 [Slides](#slides-editor) 製作及播放簡報。三個編輯器都能離線使用。你可以把參考資料放在正在編輯的檔案旁，完成後再把檔案帶回電腦接著編輯。
 
 **[下載 1.3.4 安裝檔（APK）](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [安裝指南（简体中文）](../INSTALL.md#简体中文)

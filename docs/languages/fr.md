@@ -2,6 +2,8 @@
 
 [English](../../README.md) · [Deutsch](de.md) · [Español](es.md) · **Français** · [Bahasa Indonesia](id.md) · [Italiano](it.md) · [Nederlands](nl.md) · [Polski](pl.md) · [Português (Brasil)](pt-BR.md) · [Русский](ru.md) · [Türkçe](tr.md) · [Tiếng Việt](vi.md) · [हिन्दी](hi.md) · [ไทย](th.md) · [日本語](ja.md) · [한국어](ko.md) · [简体中文](zh-CN.md) · [繁體中文](zh-TW.md)
 
+[Site officiel](https://jason-jm.github.io/RealityOffice/guides/fr/) · [Film de présentation](https://jason-jm.github.io/RealityOffice/#film)
+
 Reality Office est une suite bureautique libre et gratuite conçue pour **PICO Space Pro**. [Pages](#pages-editor) sert à rédiger et à relire des documents, [Sheets](#sheets-editor) à analyser des données et [Slides](#slides-editor) à préparer et à donner une présentation. Les trois éditeurs fonctionnent hors connexion. Vous pouvez garder un document de référence sous les yeux pendant que vous travaillez dans une seconde fenêtre, puis reprendre les mêmes fichiers sur votre ordinateur.
 
 **[Télécharger la version 1.3.4 (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Guide d’installation (EN)](../INSTALL.md#english)

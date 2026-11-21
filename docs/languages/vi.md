@@ -2,6 +2,8 @@
 
 [English](../../README.md) · [Deutsch](de.md) · [Español](es.md) · [Français](fr.md) · [Bahasa Indonesia](id.md) · [Italiano](it.md) · [Nederlands](nl.md) · [Polski](pl.md) · [Português (Brasil)](pt-BR.md) · [Русский](ru.md) · [Türkçe](tr.md) · **Tiếng Việt** · [हिन्दी](hi.md) · [ไทย](th.md) · [日本語](ja.md) · [한국어](ko.md) · [简体中文](zh-CN.md) · [繁體中文](zh-TW.md)
 
+[Trang web chính thức](https://jason-jm.github.io/RealityOffice/guides/vi/) · [Video giới thiệu](https://jason-jm.github.io/RealityOffice/#film)
+
 Reality Office là bộ ứng dụng văn phòng miễn phí, mã nguồn mở, dành cho **PICO Space Pro**. Bạn có thể soạn và rà soát tài liệu trong [Pages](#pages-editor), phân tích dữ liệu trong [Sheets](#sheets-editor), rồi thiết kế và trình chiếu với [Slides](#slides-editor). Cả ba đều hoạt động ngoại tuyến. Hãy mở tài liệu tham khảo bên cạnh cửa sổ đang làm việc, rồi chuyển chính các tệp đó sang máy tính để chỉnh sửa tiếp.
 
 **[Tải phiên bản 1.3.4 (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Hướng dẫn cài đặt (EN)](../INSTALL.md#english)

@@ -2,6 +2,8 @@
 
 [English](../../README.md) · [Deutsch](de.md) · [Español](es.md) · [Français](fr.md) · [Bahasa Indonesia](id.md) · [Italiano](it.md) · [Nederlands](nl.md) · [Polski](pl.md) · [Português (Brasil)](pt-BR.md) · [Русский](ru.md) · **Türkçe** · [Tiếng Việt](vi.md) · [हिन्दी](hi.md) · [ไทย](th.md) · [日本語](ja.md) · [한국어](ko.md) · [简体中文](zh-CN.md) · [繁體中文](zh-TW.md)
 
+[Resmî site](https://jason-jm.github.io/RealityOffice/guides/tr/) · [Tanıtım videosu](https://jason-jm.github.io/RealityOffice/#film)
+
 Reality Office, **PICO Space Pro** için geliştirilmiş ücretsiz ve açık kaynaklı bir ofis paketidir. [Pages](#pages-editor) ile belge yazıp gözden geçirebilir, [Sheets](#sheets-editor) ile verileri analiz edebilir, [Slides](#slides-editor) ile sunu hazırlayıp sunabilirsiniz. Üç düzenleyici de çevrimdışı çalışır. Bir başvuru belgesini görüş alanınızda tutarken yanındaki pencerede çalışabilir, aynı dosyaları daha sonra bilgisayarınızda düzenlemeye devam edebilirsiniz.
 
 **[1.3.4 sürümünü indir (APK)](https://github.com/jason-jm/RealityOffice/releases/download/v1.3.4/RealityOffice-v1.3.4.apk)** · [Kurulum kılavuzu (EN)](../INSTALL.md#english)
